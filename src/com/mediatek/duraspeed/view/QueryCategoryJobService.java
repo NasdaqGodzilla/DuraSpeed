@@ -227,9 +227,8 @@ public class QueryCategoryJobService extends JobService {
 
         private void notifyUpdateUI(HashMap<String, String> hashMap) {
             if (hashMap != null) {
-                Intent intent = new Intent(DuraSpeedAppService.ACTION_PKG_UPDATE);
-                intent.putExtra(DuraSpeedAppService.ACTION_EXTRA_PKG_NAMES, hashMap
-                        .keySet().toArray(new String[]{}));
+                Intent intent = new Intent(DuraSpeedMainActivity.ACTION_PKG_UPDATE);
+                intent.putExtra("pkgnames", hashMap.keySet().toArray(new String[]{}));
                 mDataManager.getAppContext().sendBroadcast(intent);
             }
         }

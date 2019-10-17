@@ -41,23 +41,46 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
+import com.mediatek.duraspeed.presenter.BoosterContract;
+import com.mediatek.duraspeed.presenter.BoosterPresenter;
+
 public class DuraSpeedAppReceiver extends BroadcastReceiver {
     private static final String TAG = "DuraSpeedAppReceiver";
+    public static final String ACTION_START_DURASPEED_APP =
+            "mediatek.intent.action.ACTION_START_DURASPEED_APP";
+    private BoosterContract.IPolicyPresenter mIPolicyPresenter;
 
     @Override
     public void onReceive(Context context, Intent intent) {
         if (intent != null) {
-            String action = intent.getAction();
-            Log.d(TAG, "onReceive, action = " + action);
-            startDuraSpeedAppService(context, intent);
+            new DSThread(context, intent).start();
         }
     }
 
-    private void startDuraSpeedAppService(Context context, Intent broadcastIntent) {
-        // Launch the Service
-        Intent i = new Intent(context, DuraSpeedAppService.class);
-        i.setAction(ViewUtils.ACTION_START_DURASPEED_APP_SERVICE);
-        i.putExtra(Intent.EXTRA_INTENT, broadcastIntent);
-        context.startService(i);
+    class DSThread extends Thread {
+        private Context mContext;
+        private Intent mIntent;
+
+        public DSThread(Context context, Intent intent) {
+            mContext = context;
+            mIntent = intent;
+        }
+
+        @Override
+        public void run() {
+            String action = mIntent.getAction();
+            Log.d(TAG, "action = " + action);
+            if (ACTION_START_DURASPEED_APP.equals(action) ||
+                    Intent.ACTION_BOOT_COMPLETED.equals(action)) {
+                if (ViewUtils.getDuraSpeedStatus(mContext)) {
+                    ViewUtils.setAppInitialStatus(mContext, ViewUtils.INITIAL_STATUS_STARTUP);
+                    ViewUtils.showNotify(mContext);
+                }
+                mIPolicyPresenter = new BoosterPresenter(mContext, null);
+                mIPolicyPresenter.setAppWhitelist();
+            } else {
+                Log.e(TAG, "Unknown extra intent action = " + action);
+            }
+        }
     }
 }

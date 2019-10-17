@@ -56,7 +56,6 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".view.DuraSpeedAppService" />
         <service
             android:name=".view.QueryCategoryJobService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
