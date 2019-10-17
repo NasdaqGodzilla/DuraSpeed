@@ -6,8 +6,7 @@
     android:sharedUserId="android.uid.system">
 
     <uses-sdk
-        android:minSdkVersion="23"
-        android:targetSdkVersion="24" />
+        android:minSdkVersion="23"/>
 
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- JobScheduler setPersisted require -->
