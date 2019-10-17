@@ -27,7 +27,6 @@
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="com.mediatek.duraspeed.APP_ENTRANCE" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.INFO" />
             </intent-filter>

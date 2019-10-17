@@ -51,30 +51,27 @@ public class DuraSpeedAppReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         Utils.createDatabaseManager(context);
         if (intent != null) {
-            new DSThread(context, intent).start();
+            String action = intent.getAction();
+            Log.d(TAG, "onReceive, action: " + action);
+            if (ACTION_START_DURASPEED_APP.equals(action) ||
+                    Intent.ACTION_BOOT_COMPLETED.equals(action)) {
+                new DSThread(context).start();
+            }
         }
     }
 
     class DSThread extends Thread {
         private Context mContext;
-        private Intent mIntent;
 
-        public DSThread(Context context, Intent intent) {
+        public DSThread(Context context) {
             mContext = context;
-            mIntent = intent;
         }
 
         @Override
         public void run() {
-            String action = mIntent.getAction();
-            if (ACTION_START_DURASPEED_APP.equals(action) ||
-                    Intent.ACTION_BOOT_COMPLETED.equals(action)) {
-                Utils.setAppWhitelist(Utils.sDatabaseManager.getAppWhitelist());
-                if (Utils.getDuraSpeedStatus(mContext) && Utils.getDuraSpeedMLStatus(mContext)) {
-                    Utils.startDuraSpeedMLService(mContext);
-                }
-            } else {
-                Log.e(TAG, "Unknown extra intent action = " + action);
+            Utils.setAppWhitelist(Utils.sDatabaseManager.getAppWhitelist());
+            if (Utils.getDuraSpeedStatus(mContext) && Utils.getDuraSpeedMLStatus(mContext)) {
+                Utils.startDuraSpeedMLService(mContext);
             }
             if (Utils.sLowRamDevice && !Utils.sStarted) {
                 Process.killProcessQuiet(Process.myPid());
