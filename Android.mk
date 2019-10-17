@@ -49,7 +49,6 @@ LOCAL_SRC_FILES += \
      src/com/mediatek/duraspeed/presenter/ICallback.aidl \
      src/com/mediatek/duraspeed/presenter/IRemoteService.aidl
 
-LOCAL_PROGUARD_ENABLED := obfuscation
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_PACKAGE_NAME := DuraSpeed
