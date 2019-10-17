@@ -151,7 +151,8 @@ public class DatabaseManager {
     }
 
     private boolean isInvisibleWhitelist(String pkgName) {
-        return (mInvisibleAppWhitelist.contains(pkgName) || mPlatformWhitelist.contains(pkgName));
+        return (mInvisibleAppWhitelist.contains(pkgName)
+                || (mPlatformWhitelist != null && mPlatformWhitelist.contains(pkgName)));
     }
 
     public List<AppRecord> getAppRecords() {
