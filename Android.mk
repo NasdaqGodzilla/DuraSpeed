@@ -31,7 +31,7 @@
 # The following software/firmware and/or related documentation ("MediaTek Software")
 # have been modified by MediaTek Inc. All revisions are subject to any receiver's
 # applicable license agreements with MediaTek Inc.
-ifeq ($(strip $(MTK_DURASPEED_SUPPORT)),yes)
+ifeq ($(strip $(MSSI_MTK_DURASPEED_SUPPORT)),yes)
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
