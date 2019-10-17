@@ -39,6 +39,7 @@ package com.mediatek.duraspeed.view;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Process;
 import android.util.Log;
 
 import com.mediatek.duraspeed.presenter.BoosterContract;
@@ -54,6 +55,9 @@ public class DuraSpeedAppReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         if (intent != null) {
             new DSThread(context, intent).start();
+        }
+        if (ViewUtils.sLowRamDevice && !ViewUtils.sStarted) {
+            Process.killProcessQuiet(Process.myPid());
         }
     }
 

@@ -83,6 +83,7 @@ public final class ViewUtils {
     public static final String SETTING_DURASPEED_ENABLED = "setting.duraspeed.enabled";
     public static final int DURASPEED_DEFAULT_VALUE =
             SystemProperties.getInt("persist.vendor.duraspeed.app.on", 0);
+    public static final boolean sLowRamDevice = SystemProperties.getBoolean("ro.config.low_ram", false);
     public static final String ACTION_START_DURASPEED_APP_SERVICE = "start_appservice";
     public static final String KEY_FROM_CATEGORY = "from_category";
     private static final String SHARED_PREFERENCE_DS = "DSSharedPreference";
@@ -99,6 +100,7 @@ public final class ViewUtils {
 
     private static final String NOTIFICATION_TAG = "DuraSpeedNotification";
     private static final int NOTIFICATION_ID = 1;
+    public static boolean sStarted = false;
 
     public static void setDuraSpeedStatus(Context context, boolean isEnable) {
         Settings.System.putInt(context.getContentResolver(),

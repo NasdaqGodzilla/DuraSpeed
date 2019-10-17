@@ -89,6 +89,7 @@ public class DuraSpeedMainActivity extends Activity {
         filter2.addDataScheme("package");
         registerReceiver(mPackageReceiver, filter2);
         mRegistered = true;
+        ViewUtils.sStarted = true;
     }
 
     @Override
@@ -98,6 +99,7 @@ public class DuraSpeedMainActivity extends Activity {
             mRegistered = false;
         }
         super.onStop();
+        ViewUtils.sStarted = false;
     }
 
     /**
