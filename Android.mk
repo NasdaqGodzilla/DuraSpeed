@@ -35,8 +35,8 @@ ifeq ($(strip $(MTK_DURASPEED_SUPPORT)),yes)
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_STATIC_JAVA_LIBRARIES := duraspeed_jsoup
-LOCAL_JAVA_LIBRARIES := duraspeed
+LOCAL_STATIC_JAVA_LIBRARIES := duraspeed_jsoup duraspeed
+LOCAL_JAVA_LIBRARIES := services.core mediatek-common
 LOCAL_APK_LIBRARIES := Settings
 
 LOCAL_MODULE_TAGS := optional
