@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed pomaga w przyspieszeniu działania APLIKACJI na planie przednim, poprzez ograniczenie działania APLIKACJI w tle; niektóre powiadomienia mogą zostać opóźnione, albo nieodebrane. \n\n DuraSpeed nie ogranicza aktywności w tle APLIKACJI włączonych na liście.</string>
+    <string name="fun_desc">Włącz, aby zezwolić na działanie aplikacji w tle</string>
+    <string name="fun_desc_category">Aplikacje mogące działać w tle</string>
+    <string name="category_summary">%1$s aplikacji z liczby %2$s</string>
+    <string name="switch_on_text">"WŁĄCZONY"</string>
+    <string name="switch_off_text">"Wył."</string>
+    <string name="category_menu">Wg kategorii</string>
+    <string name="turn_all_on_menu">Włącz wszystkie</string>
+    <string name="turn_all_off_menu">Wyłącz wszystkie</string>
+    <string name="app_list_menu">Wg listy aplikacji</string>
+    <string name="comm_category">Komunikacja</string>
+    <string name="entertain_category">Rozrywka</string>
+    <string name="life_category">Towarzyskie</string>
+    <string name="tools_category">Narzędzia</string>
+    <string name="game_category">Gry</string>
+    <string name="read_category">Czytanie</string>
+    <string name="other_category">Inni</string>
+    <string name="dlg_title">Brak wsparcia</string>
+    <string name="dlg_message">To urządzenie nie obsługuje takich aplikacji</string>
+    <string name="dlg_btn_uninstall">"Odinstaluj"</string>
+    <string name="tile_summary_on">"WŁĄCZONY"</string>
+    <string name="tile_summary_off">"Wył."</string>
+    <string name="tile_summary_disable">Wyłącz</string>
+    <string name="notification_title">DuraSpeed jest włączone</string>
+    <string name="notification_content">Aby przyśpieszyć dzialanie aktywnej APLIKACJI, niektóre powiadmienia mogą zostać opóźnione lub nieodebrane. Dodaj APLIKACJE, z których powiadomienia mają być odbierane przez cały czas i dodawane do bialej listy.</string>
+    <string name="notification_btn">Wejdź i nie przypominaj ponownie</string>
+    <string name="about_it">"Informacje"</string>
+    <string name="report_sharing_title">Udostępnianie raportu o błędzie</string>
+    <string name="report_sharing_summary">Pomóż nam ulepszyć produkt</string>
+    <string name="version_title">"Wersja"</string>
+    <string name="dlg_disclaimer_title">Zrzeczenie odpowiedzialności</string>
+    <string name="dlg_disclaimer_msg">W celu aktualizacji bazy danych kategorii aplikacji z app stores, DuraSpeed wykona połączenie z internetem. Połączenie bez Wi-Fi może spowodować dodatkowe zużycie pakietu danych.</string>
+    <string name="dlg_report_off_msg">Wyłączenie nastąpi po ponownym uruchomieniu urządzenia.</string>
+    <string name="dlg_notify_cancel">ANULUJ</string>
+    <string name="dlg_notify_ok">"OK"</string>
+</resources>

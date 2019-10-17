@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed aitab võimendada esiplaanil olevat rakendust, piirates tagaplaanil olevaid rakendusi; võimalik, et mõned teatised lükatakse hilisemaks või jäetakse vastu võtmata. \n\n DuraSpeed ei piira loendis sisselülitatud rakenduste taustategevusi</string>
+    <string name="fun_desc">Lülitage sisse, et lubada RAKENDUSTE töötamine taustal</string>
+    <string name="fun_desc_category">Rakendused, milLe töötamine taustal on lubatud</string>
+    <string name="category_summary">%1$s rakendust koguarvust %2$s</string>
+    <string name="switch_on_text">"SEES"</string>
+    <string name="switch_off_text">"Väljas"</string>
+    <string name="category_menu">Kategooria järgi</string>
+    <string name="turn_all_on_menu">Lülita kõik sisse</string>
+    <string name="turn_all_off_menu">Lülita kõik välja</string>
+    <string name="app_list_menu">Rakenduste loendi järgi</string>
+    <string name="comm_category">Kommunikatsioon</string>
+    <string name="entertain_category">Meelelahutus</string>
+    <string name="life_category">Elustiil</string>
+    <string name="tools_category">Tööriistad</string>
+    <string name="game_category">Mängud</string>
+    <string name="read_category">Lugemine</string>
+    <string name="other_category">Muud</string>
+    <string name="dlg_title">Toetuseta</string>
+    <string name="dlg_message">Puudub töötava võimendi toetus seadmes.</string>
+    <string name="dlg_btn_uninstall">"Desinstalli"</string>
+    <string name="tile_summary_on">"SEES"</string>
+    <string name="tile_summary_off">"Väljas"</string>
+    <string name="tile_summary_disable">Keela</string>
+    <string name="notification_title">DuraSpeed on sisse lülitatud</string>
+    <string name="notification_content">Aktiivse rakenduse töö kiirendamiseks võidakse mõned muud teavitused edasi lükata või vastu võtmata jätta. Lisage valgele lehele rakendused, mille teavitused tuleb alati vastu võtta.</string>
+    <string name="notification_btn">Tee seda ja ära rohkem meelde tuleta</string>
+    <string name="about_it">"Teave"</string>
+    <string name="report_sharing_title">Tõrkearuande jagamine</string>
+    <string name="report_sharing_summary">Aidake meil toodet täiustada</string>
+    <string name="version_title">"Versioon"</string>
+    <string name="dlg_disclaimer_title">Lahtiütlus</string>
+    <string name="dlg_disclaimer_msg">Rakenduse liigi andmebaasi värskendamiseks rakenduste poest, ühendub DuraSpeed Internetti. Kui pole Wi-Fi võrku, siis võidakse kohaldada täiendavaid andmeside tasusid.</string>
+    <string name="dlg_report_off_msg">Väljalülituse säte jõustub pärast seadme taaskäivitamist.</string>
+    <string name="dlg_notify_cancel">LOOBU</string>
+    <string name="dlg_notify_ok">"OK"</string>
+</resources>

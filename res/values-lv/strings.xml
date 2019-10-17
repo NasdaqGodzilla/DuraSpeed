@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed palīdz pastiprināt priekšplāna APP, ierobežojot fona APP; daži paziņojumi var tikt atlikti vai netiek saņemti. \n\n DuraSpeed neierobežo sarakstā ieslēgto APP fona aktivitātes.</string>
+    <string name="fun_desc">Ieslēgt, lai ļautu APP darboties fonā</string>
+    <string name="fun_desc_category">Lietotnes, kurām atļauts darboties fonā</string>
+    <string name="category_summary">%1$s lietotnes no kopējām %2$s</string>
+    <string name="switch_on_text">"IESLĒGTS"</string>
+    <string name="switch_off_text">"Izslēgts"</string>
+    <string name="category_menu">Pēc kategorijas</string>
+    <string name="turn_all_on_menu">Ieslēgt visu</string>
+    <string name="turn_all_off_menu">Izslēgt visu</string>
+    <string name="app_list_menu">Pēc lietotņu saraksta</string>
+    <string name="comm_category">Sakari</string>
+    <string name="entertain_category">Izklaide</string>
+    <string name="life_category">Dzīvesveids</string>
+    <string name="tools_category">Rīki</string>
+    <string name="game_category">Spēle</string>
+    <string name="read_category">Lasīšana</string>
+    <string name="other_category">Citi</string>
+    <string name="dlg_title">Nav atbalsta</string>
+    <string name="dlg_message">Ierīcē nav atsāknēšanas atbalsta.</string>
+    <string name="dlg_btn_uninstall">"Atinstalēt"</string>
+    <string name="tile_summary_on">"IESLĒGTS"</string>
+    <string name="tile_summary_off">"Izslēgts"</string>
+    <string name="tile_summary_disable">Atspējot</string>
+    <string name="notification_title">DuraSpeed ieslēgts</string>
+    <string name="notification_content">Lai paātrinātu aktīvo lietotni, dažus citus ziņojumus var atlikt uz vēlāku laiku vai nesaņemt. Pievienojiet baltajam sarakstam tos ziņojumus, kas jāsaņem vienmēr.</string>
+    <string name="notification_btn">Saņemt to un neatgādināt atkal</string>
+    <string name="about_it">"Par"</string>
+    <string name="report_sharing_title">Kļūdu pārskata koplietošana</string>
+    <string name="report_sharing_summary">Palīdziet mums uzlabot izstrādājumu</string>
+    <string name="version_title">"Versija"</string>
+    <string name="dlg_disclaimer_title">Atruna</string>
+    <string name="dlg_disclaimer_msg">Lai atjauninātu programmu kategoriju datubāzi no programmu veikaliem, DuraSpeed izveido savienojumu ar internetu. Ja nelieto Wi-Fi, var rasties papildu maksa par datplūsmu.</string>
+    <string name="dlg_notify_cancel">ATCELT</string>
+    <string name="dlg_notify_ok">"Labi"</string>
+</resources>

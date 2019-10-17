@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed membantu meningkatkan latar depan Aplikasi dengan membatasi latar belakang Aplikasi; notifikasi tertentu mungkin akan tertunda atau tidak diterima. \n\n DuraSpeed tidak membatasi aktivitas latar belakang Aplikasi yang diaktifkan dalam daftar.</string>
+    <string name="fun_desc">Aktifkan untuk menjalankan APLIKASI di latar belakang.</string>
+    <string name="fun_desc_category">Aplikasi dibolehkan berjalan di latar belakang.</string>
+    <string name="category_summary">%1$s aplikasi dari total %2$s aktif</string>
+    <string name="switch_on_text">"NYALA"</string>
+    <string name="switch_off_text">"Nonaktif"</string>
+    <string name="category_menu">Menurut kategori</string>
+    <string name="turn_all_on_menu">Aktifkan semua</string>
+    <string name="turn_all_off_menu">Nonaktifkan semua</string>
+    <string name="app_list_menu">Menurut daftar aplikasi</string>
+    <string name="comm_category">Komunikasi</string>
+    <string name="entertain_category">Hiburan</string>
+    <string name="life_category">Gaya Hidup</string>
+    <string name="tools_category">Peralatan</string>
+    <string name="game_category">Game</string>
+    <string name="read_category">Membaca</string>
+    <string name="other_category">Lainnya</string>
+    <string name="dlg_title">Tidak Didukung</string>
+    <string name="dlg_message">Tidak ada dukungan Peningkatan Berjalan di perangkat ini.</string>
+    <string name="dlg_btn_uninstall">"Copotpemasangan"</string>
+    <string name="tile_summary_on">"NYALA"</string>
+    <string name="tile_summary_off">"Nonaktif"</string>
+    <string name="tile_summary_disable">"Nonaktifkan"</string>
+    <string name="notification_title">DuraSpeed aktif</string>
+    <string name="notification_content">Untuk mempercepat aplikasi yang aktif, sejumlah notifikasi lainnya mungkin akan tertunda atau tidak diterima. Tambahkan aplikasi yang notifikasinya harus selalu diterima dalam daftar putih.</string>
+    <string name="notification_btn">Paham dan jangan ingatkan lagi</string>
+    <string name="about_it">"Tentang"</string>
+    <string name="report_sharing_title">Kesalahan Berbagi laporan</string>
+    <string name="report_sharing_summary">Bantu kami untuk meningkatkan produk</string>
+    <string name="version_title">"Versi"</string>
+    <string name="dlg_disclaimer_title">Pelepasan tanggung jawab hukum</string>
+    <string name="dlg_disclaimer_msg">Untuk memperbarui database kategori aplikasi dari app store, DuraSpeed akan menyambung ke Internet. Lalu lintas data tambahan mungkin akan terjadi tanpa Wi-Fi.</string>
+    <string name="dlg_report_off_msg">Penonaktifan akan diterapkan setelah perangkat diaktifkan ulang.</string>
+    <string name="dlg_notify_cancel">BATAL</string>
+    <string name="dlg_notify_ok">"Oke"</string>
+</resources>

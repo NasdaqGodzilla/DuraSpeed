@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed پس منظر کے ایپس کو روک کر پیش منظر ایپس کو تیز کرنے میں مدد کرتا ہے؛ کچھ اطلاعات ملتوی کیے جاسکتے یا موصول نہیں ہوسکتے ہیں۔  \n\n DuraSpeed فہرست میں سوئچ آن کیے ہوئے ایپس کی پس منظر کی سرگرمی کو نہیں روکتا۔</string>
+    <string name="fun_desc">پس منظر میں چلنے والے ایپ کو اجازت دینے کے لیے سوئچ آن کرتا ہے</string>
+    <string name="fun_desc_category">پس منظر میں چلنے کی اجازت والے ایپس</string>
+    <string name="category_summary">%1$s ایپس آن ہیں، کل %2$s میں سے</string>
+    <string name="switch_on_text">چالو</string>
+    <string name="switch_off_text">بند</string>
+    <string name="category_menu">بہ لحاظ زمرہ</string>
+    <string name="turn_all_on_menu">سبھی کو آن کریں</string>
+    <string name="turn_all_off_menu">سبھی کو آف کریں</string>
+    <string name="app_list_menu">بذریعہ ایپ فہرست</string>
+    <string name="comm_category">مواصلات</string>
+    <string name="entertain_category">تفریح</string>
+    <string name="life_category">طرز زندگی</string>
+    <string name="tools_category">ٹولز</string>
+    <string name="game_category">کھیل</string>
+    <string name="read_category">پڑھ رہا ہے</string>
+    <string name="other_category">دیگر</string>
+    <string name="dlg_title">کوئی اعانت نہیں</string>
+    <string name="dlg_message">آلہ میں کوئی بوسٹر اعانت نہیں چل رہی ہے</string>
+    <string name="dlg_btn_uninstall">"اَنانسٹالکریں"</string>
+    <string name="tile_summary_on">چالو</string>
+    <string name="tile_summary_off">بند</string>
+    <string name="tile_summary_disable">غیرفعالکریں</string>
+    <string name="notification_title">DuraSpeed آن ہے</string>
+    <string name="notification_content">فعال ایپ کو تیز کرنے کے لیے، کچھ دیگر اطلاعات ملتوی یا وصول نہیں کیے جاسکتے ہیں۔ ان ایپس کو وہائٹ لسٹ میں شامل کریں جن کی اطلاعات ہر وقت وصول کرنی ہے۔ </string>
+    <string name="notification_btn">اسے سمجھ لیں اور دوبارہ یاددہانی نہ کروائیں</string>
+    <string name="about_it">بارے میں</string>
+    <string name="report_sharing_title">غلطی کی رپورٹ کا اشتراک</string>
+    <string name="report_sharing_summary">پروڈکٹ کو بہتر بنانے میں ہماری مدد کریں</string>
+    <string name="version_title">ورژن</string>
+    <string name="dlg_disclaimer_title">اعلان دستبرداری</string>
+    <string name="dlg_disclaimer_msg">ایپ سٹورز سے ایپ کٹیگری ڈیٹابیس اپ ڈیٹ کرنے کے لیے، DuraSpeed انٹرنیٹ سے جڑے گا۔ اگر یہ Wi-Fi کے بغیر ہو تو کچھ اضافی ڈیٹا ٹریفک عائد ہوسکتا ہے۔</string>
+    <string name="dlg_report_off_msg">آلہ کو ری اسٹارٹ کرنے کے بعد سوئچ آف مؤثر ہوگا۔</string>
+    <string name="dlg_notify_cancel">منسوخکریں</string>
+    <string name="dlg_notify_ok">"ٹھیک ہے"</string>
+</resources>

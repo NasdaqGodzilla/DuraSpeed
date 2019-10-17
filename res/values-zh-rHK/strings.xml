@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">快霸</string>
+    <string name="empty_desc">快霸透過限制背景應用程式而有助增強前景應用程式；部份通知可能被延遲或不能接收。\n\n快霸並不限制於清單中開啟的應用程式的背景活動。</string>
+    <string name="fun_desc">開啟以允許應用程式於背景工作</string>
+    <string name="fun_desc_category">已允許應用程式於背景工作</string>
+    <string name="category_summary">共%2$s個中的%1$s個開啟</string>
+    <string name="switch_on_text">"開啟"</string>
+    <string name="switch_off_text">"關閉"</string>
+    <string name="category_menu">按種類</string>
+    <string name="turn_all_on_menu">全部打開</string>
+    <string name="turn_all_off_menu">全部關閉</string>
+    <string name="app_list_menu">按應用程式清單</string>
+    <string name="comm_category">通訊與社交</string>
+    <string name="entertain_category">娛樂休閒</string>
+    <string name="life_category">生活方式</string>
+    <string name="tools_category">工具</string>
+    <string name="game_category">遊戲</string>
+    <string name="read_category">閱讀</string>
+    <string name="other_category">其他</string>
+    <string name="dlg_title">沒有支援</string>
+    <string name="dlg_message">裝置中沒有快霸支援。</string>
+    <string name="dlg_btn_uninstall">"解除安裝"</string>
+    <string name="tile_summary_on">"開啟"</string>
+    <string name="tile_summary_off">"關閉"</string>
+    <string name="tile_summary_disable">停用</string>
+    <string name="notification_title">快霸已開啟</string>
+    <string name="notification_content">快霸加速前景應用的期間，可能導致部分通知無法正常接收。
+    將這些應用添加到快霸白名單即可讓應用通知無延遲。</string>
+    <string name="notification_btn">明白並且不要再提醒</string>
+    <string name="about_it">"關於"</string>
+    <string name="report_sharing_title">分享錯誤報告</string>
+    <string name="report_sharing_summary">協助我們改良產品</string>
+    <string name="version_title">"版本"</string>
+    <string name="dlg_disclaimer_title">免責聲明</string>
+    <string name="dlg_disclaimer_msg">要從App Stores更新應用程式種類數據庫，快霸將需要連接網絡。假如沒有連接Wi-Fi的話或將蒙受額外的數據流量。</string>
+    <string name="dlg_report_off_msg">關閉將於重開裝置後生效。</string>
+    <string name="dlg_notify_cancel">取消</string>
+    <string name="dlg_notify_ok">"確定"</string>
+</resources>

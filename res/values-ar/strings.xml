@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">يساعد DuraSpeed التطبيق الأمامي وذلك بإعاقة تطبيقات الخلفية، ونتيجة لذلك قد يتم تأجيل أو عدم استلام بعض الإخطارات. \n\nلن يعيق DuraSpeed أنشطة الخلفية الخاصة بالتطبيقات التي تم تشغيلها في هذه القائمة.</string>
+    <string name="fun_desc">تشغيل للسماح بتشغيل التطبيقات في الخلفية</string>
+    <string name="fun_desc_category">التطبيقات المسموح بتشغيلها في الخلفية</string>
+    <string name="category_summary">%1$s تطبيق من إجمالي %2$s مفتوحة</string>
+    <string name="switch_on_text">"تشغيل"</string>
+    <string name="switch_off_text">"إيقاف"</string>
+    <string name="category_menu">حسب الفئة</string>
+    <string name="turn_all_on_menu">تشغيل الكل</string>
+    <string name="turn_all_off_menu">إيقاف الكل</string>
+    <string name="app_list_menu">حسب قائمة التطبيقات</string>
+    <string name="comm_category">التوصيلات</string>
+    <string name="entertain_category">الترفيه</string>
+    <string name="life_category">أسلوب الحياة</string>
+    <string name="tools_category">الأداة</string>
+    <string name="game_category">ألعاب</string>
+    <string name="read_category">قيد القراءة</string>
+    <string name="other_category">أخرى</string>
+    <string name="dlg_title">غير مدعوم</string>
+    <string name="dlg_message">لا يوجد دعم محسن التشغيل في هذا الجهاز.</string>
+    <string name="dlg_btn_uninstall">"إزالة"</string>
+    <string name="tile_summary_on">"تشغيل"</string>
+    <string name="tile_summary_off">"إيقاف"</string>
+    <string name="tile_summary_disable">"تعطيل"</string>
+    <string name="notification_title">DuraSpeed في وضع التشغيل</string>
+    <string name="notification_content">لتسريع التطبيق النشط قد يتم تأجيل بعض الإخطارات الأخرى أو عدم استلامها. أضف التطبيقات التي يتم استلام إخطاراتها دائما إلى القائمة البيضاء.</string>
+    <string name="notification_btn">استلام وعدم التذكير مرة أخرى</string>
+    <string name="about_it">"حول"</string>
+    <string name="report_sharing_title">مشاركة تقارير الأخطاء</string>
+    <string name="report_sharing_summary">ساعدنا على تحسين المنتج</string>
+    <string name="version_title">"الإصدار"</string>
+    <string name="dlg_disclaimer_title">بيان إخلاء المسؤولية</string>
+    <string name="dlg_disclaimer_msg">لتحديث قواعد بيانات فئات التطبيق من متاجر التطبيقات سيتم توصيل DuraSpeed بالإنترنت، وفي حالة الاتصال بطريقة غير شبكة Wi-Fi قد يستتبع ذلك بعض الرسوم الإضافية على مرور البيانات.</string>
+    <string name="dlg_report_off_msg">يتم تنفيذ الإيقاف بعد إعادة تشغيل الجهاز.</string>
+    <string name="dlg_notify_cancel">إلغاء</string>
+    <string name="dlg_notify_ok">"موافق"</string>
+</resources>

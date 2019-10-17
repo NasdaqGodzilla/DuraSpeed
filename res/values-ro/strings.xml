@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed ajută la creşterea vitezei pentru aplicaţia din prim-plan prin restricţionarea aplicaţiilor din fundal; unele notificări ar putea fi amânate sau ar putea să nu fie primite. \n\n DuraSpeed nu va restricţiona activităţile din fundal ale aplicaţiilor activate din listă.</string>
+    <string name="fun_desc">Activaţi pentru a permite aplicaţiilor să se execute în fundal</string>
+    <string name="fun_desc_category">Aplicaţii cărora li se permite să se execute în fundal</string>
+    <string name="category_summary">%1$s (de) aplicaţii active din totalul de %2$s</string>
+    <string name="switch_on_text">"ACTIVAT"</string>
+    <string name="switch_off_text">"Dezactivat"</string>
+    <string name="category_menu">După categorie</string>
+    <string name="turn_all_on_menu">Activaţi-le pe toate</string>
+    <string name="turn_all_off_menu">Dezactivaţi-le pe toate</string>
+    <string name="app_list_menu">După lista de aplicaţii</string>
+    <string name="comm_category">Comunicaţii</string>
+    <string name="entertain_category">Divertisment</string>
+    <string name="life_category">Stil de viaţă</string>
+    <string name="tools_category">Instrumente</string>
+    <string name="game_category">Joc</string>
+    <string name="read_category">Se citeşte</string>
+    <string name="other_category">Altele</string>
+    <string name="dlg_title">Fără suport</string>
+    <string name="dlg_message">Fără suport de optimizare a execuţiei pe dispozitiv.</string>
+    <string name="dlg_btn_uninstall">"Dezinstalați"</string>
+    <string name="tile_summary_on">"ACTIVAT"</string>
+    <string name="tile_summary_off">"Dezactivat"</string>
+    <string name="tile_summary_disable">"Dezactivaţi"</string>
+    <string name="notification_title">Funcţia DuraSpeed este activată</string>
+    <string name="notification_content">Pentru a accelera aplicaţia activă, alte notificări ar putea să fie amânate sau să nu fie primite. Adăugaţi la lista albă aplicaţiile pentru care doriţi să primiţi în permanenţă notificări.</string>
+    <string name="notification_btn">Doresc să descarc aplicaţia şi să nu mi se reamintească</string>
+    <string name="about_it">"Despre"</string>
+    <string name="report_sharing_title">Partajare raport eroare</string>
+    <string name="report_sharing_summary">Ajutați-ne să înbunătățim produsul</string>
+    <string name="version_title">"Versiune"</string>
+    <string name="dlg_disclaimer_title">Negare de responsabilitate</string>
+    <string name="dlg_disclaimer_msg">Pentru a actualiza baza de date a categoriilor de aplicații din magazinele de aplicații, DuraSpeed se va conecta la internet. Este posibil să se efectueze un trafic de date suplimentar dacă nu există conectivitate Wi-Fi.</string>
+    <string name="dlg_report_off_msg">Oprirea va avea efect după repornirea dispozitivului.</string>
+    <string name="dlg_notify_cancel">REVOCARE</string>
+    <string name="dlg_notify_ok">"OK"</string>
+</resources>

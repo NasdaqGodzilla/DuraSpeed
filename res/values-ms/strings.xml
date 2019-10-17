@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed membantu menggalakkan APP latar depan dengan mengehadkan APP latar belakang; sesetengah pemberitahuan mungkin akan ditunda atau tidak diterima. \n\n DuraSpeed tidak mengehadkan aktiviti latar belakang APP yang dihidupkan dalam senarai.</string>
+    <string name="fun_desc">Hidupkan suis untuk membenarkan APLIKASI berjalan di latar belakang</string>
+    <string name="fun_desc_category">Aplikasi dibenarkan berjalan di latar belakang</string>
+    <string name="category_summary">%1$s aplikasi daripada sejumlah %2$s pada</string>
+    <string name="switch_on_text">"HIDUPKAN"</string>
+    <string name="switch_off_text">Mati</string>
+    <string name="category_menu">Mengikut kategori</string>
+    <string name="turn_all_on_menu">Hidupkan semua</string>
+    <string name="turn_all_off_menu">Matikan semua</string>
+    <string name="app_list_menu">Mengikut senarai aplikasi</string>
+    <string name="comm_category">Komunikasi</string>
+    <string name="entertain_category">Hiburan</string>
+    <string name="life_category">Gaya Hidup</string>
+    <string name="tools_category">Alat</string>
+    <string name="game_category">Permainan</string>
+    <string name="read_category">Membaca</string>
+    <string name="other_category">Lain-lain</string>
+    <string name="dlg_title">Tiada Sokongan</string>
+    <string name="dlg_message">Tiada sokongan Perangsang Yang Berjalan dalam peranti.</string>
+    <string name="dlg_btn_uninstall">"Nyahpasang"</string>
+    <string name="tile_summary_on">"HIDUPKAN"</string>
+    <string name="tile_summary_off">Mati</string>
+    <string name="tile_summary_disable">"Lumpuhkan"</string>
+    <string name="notification_title">DuraSpeed dihidupkan</string>
+    <string name="notification_content">Untuk melajukan APP yang aktif, sesetengah pemberitahuan lain mungkin akan ditunda atau tidak diterima. Tambahkan APP yang perlu menerima pemberitahuan sepanjang masa pada senarai putih.</string>
+    <string name="notification_btn">Faham dan jangan ingatkan lagi</string>
+    <string name="about_it">"Mengenai"</string>
+    <string name="report_sharing_title">Perkongsian Laporan Ralat</string>
+    <string name="report_sharing_summary">Bantu kami pertingkatkan produk</string>
+    <string name="version_title">"Versi"</string>
+    <string name="dlg_disclaimer_title">Penafian</string>
+    <string name="dlg_disclaimer_msg">Untuk mengemas kini pangkalan data kategori aplikasi daripada App Stores, DuraSpeed akan bersambung ke Internet. Trafik data tambahan boleh dikenakan jika tidak menggunakan Wi-Fi.</string>
+    <string name="dlg_report_off_msg">Proses mematikan ciri ini akan berkesan selepas peranti dimulakan semula.</string>
+    <string name="dlg_notify_cancel">BATAL</string>
+    <string name="dlg_notify_ok">"OK"</string>
+</resources>

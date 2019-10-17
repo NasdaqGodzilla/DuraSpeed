@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">နောက်ခံ APPs များကို ကန့်သတ်ခြင်းဖြင့် DuraSpeed သည် ရှေ့တွင်လုပ်ဆောင်နေသော APP ကို အဆင့်မြှင့်တင်နိုင်သည်၊ အချို့သော သတိပေးချက်များကို နောက်ရွှေ့ဆိုင်းခြင်း သို့မဟုတ် လက်မခံခြင်းတို့ကို ဖြစ်နိုင်သည်။\n\n DuraSpeed သည် စာရင်းထဲမှ ပြောင်းထားသော APP များ၏ နောက်ခံလုပ်ဆောင်မှုများကို မကန့်သတ်ပါ။</string>
+    <string name="fun_desc">နောက်ခံတွင် ပရိုဂရမ်များဖွင့်ထားခြင်းကို ခွင့်ပြုရန် ဖွင့်ပါ</string>
+    <string name="fun_desc_category">နောက်ခံတွင် ဖွင့်ခွင့်ရထားသော ပရိုဂရမ်များ</string>
+    <string name="category_summary">စုစုပေါင်း ပရိုဂရမ် %2$s ခုမှ %1$s ခု ဖွင့်ထားသည်</string>
+    <string name="switch_on_text">ဖွင့်ပါ</string>
+    <string name="switch_off_text">"ပိတ်"</string>
+    <string name="category_menu">အမျိုးအစားဖြင့်</string>
+    <string name="turn_all_on_menu">အားလုံးကို ဖွင့်ပါ</string>
+    <string name="turn_all_off_menu">အားလုံးကို ပိတ်ပါ</string>
+    <string name="app_list_menu">ပရိုဂရမ်စာရင်းဖြင့်</string>
+    <string name="comm_category">ဆက်သွယ်ခြင်းများ</string>
+    <string name="entertain_category">ဖျော်ဖြေရေး</string>
+    <string name="life_category">လူနေမှုစတိုင်လ်</string>
+    <string name="tools_category">တူးလ်များ</string>
+    <string name="game_category">ဂိမ်း</string>
+    <string name="read_category">ဖတ်နေသည်</string>
+    <string name="other_category">အခြား</string>
+    <string name="dlg_title">မထောက်ပံ့ပါ</string>
+    <string name="dlg_message">ဤကိရိယာတွင် လုပ်ဆောင်ခြင်း Booster မထောက်ပံ့ထားပါ။</string>
+    <string name="dlg_btn_uninstall">"ဖယ်ရှားခြင်း"</string>
+    <string name="tile_summary_on">ဖွင့်ပါ</string>
+    <string name="tile_summary_off">"ပိတ်"</string>
+    <string name="tile_summary_disable">လုပ်ဆောင်စေသည်</string>
+    <string name="notification_title">DuraSpeed ကို ဖွင့်ထားသည်</string>
+    <string name="notification_content">သက်ဝင်နေသော အက်ပ်ကို အရှိန်မြင့်ရန် အချို့သော အခြားသတိပေးချက်များကို အချိန်ရွှေ့ဆိုင်းထားပါ သို့မဟုတ် လက်မခံပါနှင့်။ အချိန်တိုင်း သတိပေးချက် လက်ခံလိုသော အက်ပ်များကို လက်ခံလိုသောစာရင်းသို့ ထည့်ပါ။</string>
+    <string name="notification_btn">ရပါပြီ၊ နောက်ထပ် သတိမပေးပါနှင့်</string>
+    <string name="about_it">"အကြောင်း"</string>
+    <string name="report_sharing_title">အမှားအစီရင်ခံစာ မျှဝေခြင်း</string>
+    <string name="report_sharing_summary">ထုတ်ကုန်အဆင့်မြှင့်တင်ရန် ကျွန်ုပ်တို့ကို ကူညီပါ</string>
+    <string name="version_title">"ဗားရှင်း"</string>
+    <string name="dlg_disclaimer_title">ထုတ်ပြန်ကြေညာသူ</string>
+    <string name="dlg_disclaimer_msg">အက္ပ္စတိုးေတြထဲမွ အက္ပ္အမ်ဳိးအစား ေဒတာေဘ့စ္ေတြကို အခ်ိန္နဲ႔တစ္ေျပးညီျဖစ္ေစရန္၊ DuraSpeed မွ အင္တာနက္ကို ခ်ိတ္ဆက္ပါလိမ့္မည္။ Wi-Fi နဲ႔မဟုတ္ရင္ေတာ့ ထပ္ေဆာင္းအခ်က္အလက္ အသြားအလာ အနည္းငယ္ရွိႏိုင္ပါသည္။</string>
+    <string name="dlg_report_off_msg">ကိရိယာကို စတင်ပြီးနောက် ခလုတ်ပိတ်ခြင်းကို သက်ရောက်မှုရှိမည်။</string>
+    <string name="dlg_notify_cancel">ပယ်ဖျက်ပါ</string>
+    <string name="dlg_notify_ok">"ကောင်းပြီ"</string>
+</resources>

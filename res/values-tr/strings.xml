@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed, arka plandaki uygulamaları kısıtlayarak ön plandaki uygulamaları hızlandırmaya yardımcı olur; bazı bildirimler ertelenebilir veya alınmayabilir. \n\n DuraSpeed, listede açık duruma getirilen uygulamaların arka plan etkinliklerini kısıtlamaz.</string>
+    <string name="fun_desc">Uygulamaların arka planda çalışmasına izin vermek için açın.</string>
+    <string name="fun_desc_category">Arka planda çalışma izni verilen uygulamalar</string>
+    <string name="category_summary">Toplam %2$s uygulamadan %1$s tanesi açık</string>
+    <string name="switch_on_text">"AÇ"</string>
+    <string name="switch_off_text">"Kapalı"</string>
+    <string name="category_menu">Kategoriye göre</string>
+    <string name="turn_all_on_menu">Tümünü aç</string>
+    <string name="turn_all_off_menu">Tümünü kapat</string>
+    <string name="app_list_menu">Uygulama listesine göre</string>
+    <string name="comm_category">İletişim</string>
+    <string name="entertain_category">Eğlence</string>
+    <string name="life_category">Yaşam Tarzı</string>
+    <string name="tools_category">Araçları</string>
+    <string name="game_category">Oyun</string>
+    <string name="read_category">Okunuyor</string>
+    <string name="other_category">Diğer</string>
+    <string name="dlg_title">Destek Yok</string>
+    <string name="dlg_message">Aygıtta Çalışma Hızlandırıcı desteği yok.</string>
+    <string name="dlg_btn_uninstall">"Yüklemeyikaldır"</string>
+    <string name="tile_summary_on">"AÇ"</string>
+    <string name="tile_summary_off">"Kapalı"</string>
+    <string name="tile_summary_disable">"Devredışıbırak"</string>
+    <string name="notification_title">DuraSpeed açık</string>
+    <string name="notification_content">Etkin uygulamayı hızlandırmak için, bazı diğer bildirimler ertelenebilir veya alınmayabilir. Bildirimlerinin her zaman alınacağı uygulamaları beyaz listeye ekleyin.</string>
+    <string name="notification_btn">Anladım; tekrar anımsatma</string>
+    <string name="about_it">"Hakkında"</string>
+    <string name="report_sharing_title">Hata Raporu paylaşımı</string>
+    <string name="report_sharing_summary">Ürünü iyileştirmemize yardımcı olun.</string>
+    <string name="version_title">"Sürüm"</string>
+    <string name="dlg_disclaimer_title">Yasal Uyarı</string>
+    <string name="dlg_disclaimer_msg">"DuraSpeed, uygulama mağazalarından uygulama kategorisi veritabanını güncellemek için Internet'e bağlanacak. Wi-Fi bağlantısının olmaması durumunda bir miktar ek veri trafiğine neden olabilir."</string>
+    <string name="dlg_report_off_msg">Kapatma işlemi, aygıt yeniden başlatıldıktan sonra geçerlilik kazanacaktır.</string>
+    <string name="dlg_notify_cancel">İPTAL</string>
+    <string name="dlg_notify_ok">"Tamam"</string>
+</resources>

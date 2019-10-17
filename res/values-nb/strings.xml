@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed bidrar til å gjøre apper i forgrunnen raskere ved å begrense bakgrunnsprogrammer. Enkelte meldinger kan utsettes eller ikke mottas. \n\n DuraSpeed begrenser ikke bakgrunnsaktiviteten til apper som er slått på i listen.</string>
+    <string name="fun_desc">Slå på for å tillate at apper kjører i bakgrunnen</string>
+    <string name="fun_desc_category">Apper som får kjøre i bakgrunnen</string>
+    <string name="category_summary">%1$s apper av til sammen %2$s åpne</string>
+    <string name="switch_on_text">"PÅ"</string>
+    <string name="switch_off_text">"Av"</string>
+    <string name="category_menu">Etter kategori</string>
+    <string name="turn_all_on_menu">Slå alle på</string>
+    <string name="turn_all_off_menu">Slå alle av</string>
+    <string name="app_list_menu">Etter appliste</string>
+    <string name="comm_category">Kommunikasjon</string>
+    <string name="entertain_category">Underholdning</string>
+    <string name="life_category">Livsstil</string>
+    <string name="tools_category">Verktøy</string>
+    <string name="game_category">Game</string>
+    <string name="read_category">Lesing</string>
+    <string name="other_category">Annet</string>
+    <string name="dlg_title">Ikke støttet</string>
+    <string name="dlg_message">Enheten støtter ikke Running Booster.</string>
+    <string name="dlg_btn_uninstall">"Avinstaller"</string>
+    <string name="tile_summary_on">"PÅ"</string>
+    <string name="tile_summary_off">"Av"</string>
+    <string name="tile_summary_disable">Deaktiver</string>
+    <string name="notification_title">DuraSpeed er på</string>
+    <string name="notification_content">For å gjøre den aktive appen raskere kan andre varslinger utsettes eller ikke mottas. Legg til appene du alltid må få varslinger for i hvitelisten.</string>
+    <string name="notification_btn">Hent og minn ikke på igjen</string>
+    <string name="about_it">"Info"</string>
+    <string name="report_sharing_title">Deling av feilrapport</string>
+    <string name="report_sharing_summary">Hjelp oss med å forbedre produktet</string>
+    <string name="version_title">"Versjon"</string>
+    <string name="dlg_disclaimer_title">Fraskrivelse av ansvar</string>
+    <string name="dlg_disclaimer_msg">DuraSpeed vil koble til internett for å oppdatere appkategoridatabasen fra app-butikkene. Noe ekstra datatrafikk kan påløpe hvis du ikke er koblet til Wi-Fi.</string>
+    <string name="dlg_report_off_msg">Avslåing trer i kraft etter at enheten startes på nytt.</string>
+    <string name="dlg_notify_cancel">AVBRYT</string>
+    <string name="dlg_notify_ok">"OK"</string>
+</resources>

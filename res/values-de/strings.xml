@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed hilft bei der Optimierung der Vordergrund-App durch Beschränkung der Hintergrund-Apps; einige Benachrichtigungen werden möglicherweise verzögert oder nicht empfangen. \n\n DuraSpeed beschränkt keine Hintergrundaktivitäten von Apps, die in der Liste eingeschaltet sind.</string>
+    <string name="fun_desc">Einschalten, damit Apps im Hintergrund laufen dürfen</string>
+    <string name="fun_desc_category">Apps dürfen im Hintergrund laufen</string>
+    <string name="category_summary">%1$s Apps von insgesamt %2$s aktiv</string>
+    <string name="switch_on_text">"An"</string>
+    <string name="switch_off_text">"Deaktiviert"</string>
+    <string name="category_menu">Nach Kategorie</string>
+    <string name="turn_all_on_menu">Alles einschalten</string>
+    <string name="turn_all_off_menu">Alles ausschalten</string>
+    <string name="app_list_menu">Nach App-Liste</string>
+    <string name="comm_category">Kommunikation</string>
+    <string name="entertain_category">Unterhaltung</string>
+    <string name="life_category">Lifestyle</string>
+    <string name="tools_category">Werkzeuge</string>
+    <string name="game_category">Spiel</string>
+    <string name="read_category">Lesen</string>
+    <string name="other_category">Sonstiges</string>
+    <string name="dlg_title">Keine Unterstützung</string>
+    <string name="dlg_message">Keine Optimierungsunterstützung im Gerät.</string>
+    <string name="dlg_btn_uninstall">"Deinstallieren"</string>
+    <string name="tile_summary_on">"An"</string>
+    <string name="tile_summary_off">"Deaktiviert"</string>
+    <string name="tile_summary_disable">"Deaktivieren"</string>
+    <string name="notification_title">DuraSpeed ist eingeschaltet</string>
+    <string name="notification_content">Zur Beschleunigung der aktiven App werden andere Benachrichtigungen möglicherweise zeitlich verzögert oder gar nicht empfangen.  Fügen Sie die Apps zur Weißliste hinzu, deren Benachrichtigungen immer empfangen werden müssen.</string>
+    <string name="notification_btn">Aufrufen und künftig nicht mehr erinnern</string>
+    <string name="about_it">"Über"</string>
+    <string name="report_sharing_title">Freigabe von Fehlerberichten</string>
+    <string name="report_sharing_summary">Helfen Sie uns dabei, das Produkt zu verbessern.</string>
+    <string name="version_title">"Version"</string>
+    <string name="dlg_disclaimer_title">Haftungsausschluss</string>
+    <string name="dlg_disclaimer_msg">Zur Aktualisierung der App-Kategoriendatenbank von App Stores verbindet sich DuraSpeed mit dem Internet. Ohne WLAN könnte zusätzlicher Datenverkehr auftreten.</string>
+    <string name="dlg_report_off_msg">Die Abschaltung wird nach einem Neustart des Gerätes wirksam.</string>
+    <string name="dlg_notify_cancel">Abbrechen</string>
+    <string name="dlg_notify_ok">"OK"</string>
+</resources>

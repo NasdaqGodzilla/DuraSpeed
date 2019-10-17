@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">快霸</string>
+    <string name="empty_desc">快霸限制後端APP來加速前端APP，此時某些通知可能被延後或省略。\n\n 快霸對本清單內啟動的後端APP不做限制。</string>
+    <string name="fun_desc">打開開關可允許應用程式在背景運行</string>
+    <string name="fun_desc_category">允許在背景運行的應用程式</string>
+    <string name="category_summary">已開啟%1$s個應用程式，共%2$s個</string>
+    <string name="switch_on_text">"開啟"</string>
+    <string name="switch_off_text">"關閉"</string>
+    <string name="category_menu">按類別</string>
+    <string name="turn_all_on_menu">全部開啟</string>
+    <string name="turn_all_off_menu">全部關閉</string>
+    <string name="app_list_menu">按應用程式清單</string>
+    <string name="comm_category">通訊與社交</string>
+    <string name="entertain_category">娛樂休閒</string>
+    <string name="life_category">生活</string>
+    <string name="tools_category">工具</string>
+    <string name="game_category">遊戲</string>
+    <string name="read_category">閱讀</string>
+    <string name="other_category">其他</string>
+    <string name="dlg_title">不支援</string>
+    <string name="dlg_message">本設備不支持快霸。</string>
+    <string name="dlg_btn_uninstall">"解除安裝"</string>
+    <string name="tile_summary_on">"開啟"</string>
+    <string name="tile_summary_off">"關閉"</string>
+    <string name="tile_summary_disable">"停用"</string>
+    <string name="notification_title">快霸已開啟</string>
+    <string name="notification_content">快霸加速前景應用的期間，可能導致部分通知無法正常接收。
+    將這些應用添加到快霸白名單即可讓應用通知無延遲。</string>
+    <string name="notification_btn">已了解，請勿再通知。</string>
+    <string name="about_it">"相關資訊"</string>
+    <string name="report_sharing_title">分享錯誤報告</string>
+    <string name="report_sharing_summary">協助我們改善產品</string>
+    <string name="version_title">"版本"</string>
+    <string name="dlg_disclaimer_title">免責聲明</string>
+    <string name="dlg_disclaimer_msg">快霸必須連上網際網路，才能從 App 市集更新 App 類別資料庫，沒有Wi-Fi連接時，可能產生額外的數據流量。</string>
+    <string name="dlg_report_off_msg">關閉本選項將在裝置下次重新啟動後生效。</string>
+    <string name="dlg_notify_cancel">"取消"</string>
+    <string name="dlg_notify_ok">"確定"</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed спомага а подсилване на приложението на преден план чрез ограничаване на приложенията във фона; някои известия може да са отложени или неполучени. \n\n DuraSpeed не ограничава дейностите във фона на включените приложения в списъка.</string>
+    <string name="fun_desc">Превключете, за да разрешите приложения да се изпълняват във фона</string>
+    <string name="fun_desc_category">Приложения, които могат да се изпълняват във фона</string>
+    <string name="category_summary">%1$s приложения от общо %2$s включени</string>
+    <string name="switch_on_text">"ВКЛЮЧЕНО"</string>
+    <string name="switch_off_text">"Изключено"</string>
+    <string name="category_menu">По категория</string>
+    <string name="turn_all_on_menu">Включване на всички</string>
+    <string name="turn_all_off_menu">Изключване на всички</string>
+    <string name="app_list_menu">Списък по приложения</string>
+    <string name="comm_category">Комуникации</string>
+    <string name="entertain_category">Забавление</string>
+    <string name="life_category">Лайфстайл</string>
+    <string name="tools_category">Инструменти</string>
+    <string name="game_category">Игри</string>
+    <string name="read_category">Четене</string>
+    <string name="other_category">Други</string>
+    <string name="dlg_title">Няма поддръжка</string>
+    <string name="dlg_message">В това приложение няма поддръжка на програма за подсилване</string>
+    <string name="dlg_btn_uninstall">"Деинсталиране"</string>
+    <string name="tile_summary_on">"ВКЛЮЧЕНО"</string>
+    <string name="tile_summary_off">"Изключено"</string>
+    <string name="tile_summary_disable">Забрани</string>
+    <string name="notification_title">DuraSpeed е вкл.</string>
+    <string name="notification_content">За ускоряване на активното приложение може някои други известия да бъдат отложени или да не са получени. Добавете приложенията, чиито известия трябва да се получават през цялото време, към белия списък.</string>
+    <string name="notification_btn">Разбрах и не ми напомняй повече</string>
+    <string name="about_it">"Информация"</string>
+    <string name="report_sharing_title">Споделяне на отчет за грешки</string>
+    <string name="report_sharing_summary">Помогнете ни да подобрим продукта</string>
+    <string name="version_title">"Версия"</string>
+    <string name="dlg_disclaimer_title">Отказ</string>
+    <string name="dlg_disclaimer_msg">За актуализиране на базата данни с категории приложения от магазини за приложения, DuraSpeed ще се свърже с интернет. Възможен е допълнителен трафик на данни ако не използвате Wi-Fi.</string>
+    <string name="dlg_report_off_msg">Изключването ще започне да важи след рестартиране на устройството.</string>
+    <string name="dlg_notify_cancel">ОТКАЗ</string>
+    <string name="dlg_notify_ok">"OK"</string>
+</resources>

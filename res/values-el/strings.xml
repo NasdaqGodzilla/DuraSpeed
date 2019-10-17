@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">Το DuraSpeed βοηθάει στην ενίσχυση του APP πρώτου πλάνου περιορίζοντας τα APP φόντου. Μερικές ειδοποιήσεις ενδέχεται να αναβληθούν ή να μην ληφθούν. \n\n Το DuraSpeed δεν περιορίζει δραστηριότητες στο παρασκήνιο των APP που είναι ενεργοποιημένα στη λίστα.</string>
+    <string name="fun_desc">Ενεργοποιήστε για να επιτρέψετε την εκτέλεση των εφαρμογών στο παρασκήνιο</string>
+    <string name="fun_desc_category">Οι επιτραπείσες εφαρμογές εκτελούνται στο παρασκήνιο</string>
+    <string name="category_summary">%1$s εφαρμογές συνολικά %2$s για</string>
+    <string name="switch_on_text">"ΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string name="switch_off_text">"Απενεργοποίηση"</string>
+    <string name="category_menu">Ανά κατηγορία</string>
+    <string name="turn_all_on_menu">Ενεργοποίηση όλων</string>
+    <string name="turn_all_off_menu">Απενεργοποίηση όλων</string>
+    <string name="app_list_menu">Ανά λίστα εφαρμογών</string>
+    <string name="comm_category">Επικοινωνίες</string>
+    <string name="entertain_category">Ψυχαγωγία</string>
+    <string name="life_category">Lifestyle</string>
+    <string name="tools_category">Εργαλεία</string>
+    <string name="game_category">Παιχνίδια</string>
+    <string name="read_category">Ανάγνωση</string>
+    <string name="other_category">Άλλο</string>
+    <string name="dlg_title">Δεν υποστηρίζεται</string>
+    <string name="dlg_message">Δεν εκτελείται καμία υποστήριξη ενίσχυσης στη συσκευή.</string>
+    <string name="dlg_btn_uninstall">"Κατάργησηεγκατάστασης"</string>
+    <string name="tile_summary_on">"ΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string name="tile_summary_off">"Απενεργοποίηση"</string>
+    <string name="tile_summary_disable">"Απενεργοποίηση"</string>
+    <string name="notification_title">Το DuraSpeed είναι ενεργό</string>
+    <string name="notification_content">Για την επιτάχυνση της ενεργής εφαρμογής, κάποιες άλλες ειδοποιήσεις ενδέχεται να αναβληθούν ή να μην γίνει λήψη τους. Προσθέστε τις εφαρμογές των οποίων τις πληροφορίες χρειαζόμαστε να λαμβάνουμε όλη την ώρα στη λευκή λίστα.</string>
+    <string name="notification_btn">Απόκτηση και να μην ξαναγίνει υπενθύμιση</string>
+    <string name="about_it">"Σχετικά με"</string>
+    <string name="report_sharing_title">Κοινή χρήση αναφοράς σφάλματος</string>
+    <string name="report_sharing_summary">Βοηθήστε μας στη βελτίωση του προϊόντος</string>
+    <string name="version_title">"Έκδοση"</string>
+    <string name="dlg_disclaimer_title">Αποποίηση ευθυνών</string>
+    <string name="dlg_disclaimer_msg">Για να ενημερώσετε τη βάση δεδομένων των κατηγοριών εφαρμογών από τα καταστήματα εφαρμογών, το DuraSpeed θα συνδεθεί στο Διαδίκτυο. Ενδέχεται να προκύψει κάποια επιπλέον κίνηση δεδομένων εάν δεν υπάρχει Wi-Fi.</string>
+    <string name="dlg_report_off_msg">Η απενεργοποίηση θα τεθεί σε ισχύ μετά την επανεκκίνηση της συσκευής.</string>
+    <string name="dlg_notify_cancel">ΆΚΥΡΟ</string>
+    <string name="dlg_notify_ok">"ΟΚ"</string>
+</resources>

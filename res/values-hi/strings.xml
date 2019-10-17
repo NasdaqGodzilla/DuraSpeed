@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed पृष्ठभूमि वाले एप्लिकेशन को सीमित करके अग्रभूमि वाले एप्लिकेशन को बढ़ावा देने में सहायता करता है; कुछ सूचनाएं स्थगित की जा सकती हैं या प्राप्त नहीं हो सकती हैं। \n\n DuraSpeed सूची के चालू एप्लिकेशन की पृष्ठभूमि गतिविधियों को सीमित नहीं करता है।</string>
+    <string name="fun_desc">पृष्ठभूमि में एप्लिकेशन चलने की अनुमति देने के लिए चालू करें</string>
+    <string name="fun_desc_category">पृष्ठभूमि में चलने के लिए स्वीकृत एप्लिकेशन</string>
+    <string name="category_summary">निम्न पर कुल %2$s में से %1$s एप्लिकेशन</string>
+    <string name="switch_on_text">"चालू"</string>
+    <string name="switch_off_text">"बंद"</string>
+    <string name="category_menu">श्रेणी के अनुसार</string>
+    <string name="turn_all_on_menu">सभी को चालू करें</string>
+    <string name="turn_all_off_menu">सभी को बंद करें</string>
+    <string name="app_list_menu">एप्लिकेशन सूची के अनुसार</string>
+    <string name="comm_category">संचार</string>
+    <string name="entertain_category">मनोरंजन</string>
+    <string name="life_category">जीवनशैली</string>
+    <string name="tools_category">उपकरण</string>
+    <string name="game_category">गेम</string>
+    <string name="read_category">पठन</string>
+    <string name="other_category">अन्य</string>
+    <string name="dlg_title">कोई समर्थन नहीं</string>
+    <string name="dlg_message">डिवाइस में कोई चालू बूस्टर समर्थन नहीं है।</string>
+    <string name="dlg_btn_uninstall">"अनइंस्टॉलकरें"</string>
+    <string name="tile_summary_on">"चालू"</string>
+    <string name="tile_summary_off">"बंद"</string>
+    <string name="tile_summary_disable">"अक्षमकरें"</string>
+    <string name="notification_title">DuraSpeed चालू है</string>
+    <string name="notification_content">सक्रिय एप्प की गति बढ़ाने के लिए, कुछ अन्य सूचनाएँ विलंबित की जा सकती हैं या उन्हें प्राप्त करना रोक दिया जा सकता है। उन एप्लिकेशन को श्वेत सूची में जोड़ें जिनकी सूचना हमेशा प्राप्त होनी जरूरी है।</string>
+    <string name="notification_btn">इसे प्राप्त करें और दोबारा याद नहीं दिलाएँ</string>
+    <string name="about_it">"इस बारे में"</string>
+    <string name="report_sharing_title">त्रुटि रिपोर्ट साझा करना</string>
+    <string name="report_sharing_summary">उत्पाद को बेहतर बनाने में हमारी मदद करें</string>
+    <string name="version_title">"वर्शन"</string>
+    <string name="dlg_disclaimer_title">अस्वीकरण</string>
+    <string name="dlg_disclaimer_msg">ऐप स्टोर से ऐप श्रेणी डेटाबेस अपडेट करने के लिए, DuraSpeed इंटरनेट से कनेक्ट होगा। Wi-Fi उपलब्ध न होने पर कुछ अतिरिक्त डेटा ट्रैफ़िक खर्च हो सकता है।</string>
+    <string name="dlg_report_off_msg">बंद करना डिवाइस पुनः आरंभ करने के बाद प्रभावी होगा।</string>
+    <string name="dlg_notify_cancel">रद्दकरें</string>
+    <string name="dlg_notify_ok">"ठीक है"</string>
+</resources>

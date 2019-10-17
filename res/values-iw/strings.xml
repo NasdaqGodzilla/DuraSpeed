@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuraSpeed</string>
+    <string name="empty_desc">DuraSpeed מסייעת בהאצת האפליקציה שבה נעשה שימוש על ידי הגבלת אפליקצית הפועלות ברקע. חלק מההודעות עלולות להתעכב או לא להתקבל.\n\nDuraSpeed לא מגבילה פעילויות ברקע של אפליקציות שהופעלו ברשימה.</string>
+    <string name="fun_desc">הפעל כדי להתיר לאפליקציות לפעול ברקע</string>
+    <string name="fun_desc_category">האפליקציות המותרות פועלות ברקע</string>
+    <string name="category_summary">%1$s אפליקציות מתוך סה"כ של %2$s פועלות</string>
+    <string name="switch_on_text">"פועל"</string>
+    <string name="switch_off_text">"כבוי"</string>
+    <string name="category_menu">לפי קטגוריה</string>
+    <string name="turn_all_on_menu">הפעל הכול</string>
+    <string name="turn_all_off_menu">כבה הכול</string>
+    <string name="app_list_menu">לפי רשימת אפליקציות</string>
+    <string name="comm_category">תקשורת</string>
+    <string name="entertain_category">בידור</string>
+    <string name="life_category">סגנון חיים</string>
+    <string name="tools_category">כלים</string>
+    <string name="game_category">משחק</string>
+    <string name="read_category">קורא</string>
+    <string name="other_category">אחרים</string>
+    <string name="dlg_title">אין תמיכה</string>
+    <string name="dlg_message">אין תמיכה פועלת בהאצה במכשיר זה</string>
+    <string name="dlg_btn_uninstall">"הסרהתקנה"</string>
+    <string name="tile_summary_on">"פועל"</string>
+    <string name="tile_summary_off">"כבוי"</string>
+    <string name="tile_summary_disable">"השבת"</string>
+    <string name="notification_title">DuraSpeed מופעלת</string>
+    <string name="notification_content">להאצת האפליקציה הפעילה, ייתכן שחלק מההתראות יעוכבו או לא יתקבלו. הוסף את האפליקציות שאת ההתראות שלהן יש לקבל תמיד לרשימה הלבנה.</string>
+    <string name="notification_btn">קבל ואל תזכיר שוב</string>
+    <string name="about_it">"מידע כללי"</string>
+    <string name="report_sharing_title">שיתוף דוח שגיאה</string>
+    <string name="report_sharing_summary">עזור לנו לשפר את המוצר</string>
+    <string name="version_title">"גרסה"</string>
+    <string name="dlg_disclaimer_title">כתב ויתור</string>
+    <string name="dlg_disclaimer_msg">כדי לעדכן את מסד הנתונים של קטגוריות האפליקציות בחנויות האפליקציות, אפליקציית DuraSpeed תתחבר לאינטרנט. אם אינך מחובר ל-Wi-Fi החיבור יעשה דרך חבילת הגלישה.</string>
+    <string name="dlg_report_off_msg">ההשבתה תחול לאחר הפעלה מחדש של המכשיר.</string>
+    <string name="dlg_notify_cancel">ביטול</string>
+    <string name="dlg_notify_ok">"אישור"</string>
+</resources>
