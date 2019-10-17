@@ -37,6 +37,7 @@
 package com.mediatek.duraspeed.view;
 
 import android.app.IntentService;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -75,17 +76,9 @@ public class DuraSpeedAppService extends IntentService {
             DatabaseManager dbManager = DatabaseManager.getInstance(this.getApplicationContext());
             if (ACTION_START_DURASPEED_APP.equals(extraAction) ||
                     Intent.ACTION_BOOT_COMPLETED.equals(extraAction)) {
-                boolean isEnable = (ViewUtils.DURASPEED_DEFAULT_VALUE == 1);
-                if (isEnable) {
-                    ViewUtils.setAppInitialStatus(this, ViewUtils.INITIAL_STATUS_STARTUP);
-                }
-                if (ViewUtils.getStatus(this) ==
-                        getResources().getInteger(R.integer.feature_default_status)) {
-                    ViewUtils.setDuraSpeedStatus(this, isEnable);
-                    if (isEnable) {
-                        ViewUtils.showNotify(this);
-                    }
-                } else if (ViewUtils.getDuraSpeedStatus(getApplicationContext())) {
+                Context context = getApplicationContext();
+                if (ViewUtils.getDuraSpeedStatus(context)) {
+                    ViewUtils.setAppInitialStatus(context, ViewUtils.INITIAL_STATUS_STARTUP);
                     ViewUtils.showNotify(this);
                 }
                 mIPolicyPresenter = new BoosterPresenter(getApplicationContext(), null);
