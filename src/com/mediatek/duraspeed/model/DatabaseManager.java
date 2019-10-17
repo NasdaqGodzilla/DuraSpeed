@@ -133,7 +133,7 @@ public class DatabaseManager {
         return isSystem;
     }
 
-    private void updateDataBase(Context context) {
+    public void updateDataBase(Context context) {
         // get all the installed app list, exclude system white list and platform white list
         List<ApplicationInfo> originalAppList = mPm
                 .getInstalledApplications(mRetrieveFlags);

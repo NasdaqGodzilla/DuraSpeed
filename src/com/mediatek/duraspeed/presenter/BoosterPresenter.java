@@ -84,7 +84,7 @@ public class BoosterPresenter implements BoosterContract.IPolicyPresenter,
 
     @Override
     public void startAppList(boolean checked) {
-        // firstly setPolicy to FWK
+        DatabaseManager.getInstance(mContext).updateDataBase(mContext);
         setAppWhitelist();
         // View task to do
         if (checked) {

@@ -126,7 +126,7 @@ public class WhiteListFragment extends BaseFragment {
     @Override
     public void showControlAppList(ArrayList<AppRecord> appList) {
         if (appList == null || appList.size() == 0) {
-            this.mActivity.getFragmentManager().popBackStackImmediate();
+            getChildFragmentManager().popBackStackImmediate();
             showBlankView();
             Log.d(TAG, "show control app list is empty");
             return;

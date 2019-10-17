@@ -73,8 +73,14 @@ public class DuraSpeedMainActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
-        final IntentFilter filter = new IntentFilter(DuraSpeedAppService.ACTION_PKG_UPDATE);
-        registerReceiver(mPackageReceiver, filter);
+        IntentFilter filter1 = new IntentFilter(DuraSpeedAppService.ACTION_PKG_UPDATE);
+        registerReceiver(mPackageReceiver, filter1);
+
+        IntentFilter filter2 = new IntentFilter();
+        filter2.addAction(Intent.ACTION_PACKAGE_ADDED);
+        filter2.addAction(Intent.ACTION_PACKAGE_REMOVED);
+        filter2.addDataScheme("package");
+        registerReceiver(mPackageReceiver, filter2);
         mRegistered = true;
     }
 
@@ -116,14 +122,27 @@ public class DuraSpeedMainActivity extends Activity {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-            if (context instanceof Activity) {
-                Log.d(TAG, "package receiver: " + intent.toString());
-                FragmentManager manager = ((Activity) context).getFragmentManager();
-                Fragment frag = manager.findFragmentById(mMainContentId);
-                if (frag instanceof BaseFragment) {
-                    ((BaseFragment) frag).onPackageUpdated(intent);
-                } else {
-                    Log.d(TAG, "not find base fragment: " + frag);
+
+            if (intent != null) {
+                String action = intent.getAction();
+                Log.d(TAG, "onReceive, action: " + action);
+                if (DuraSpeedAppService.ACTION_PKG_UPDATE.equals(action)) {
+                    if (context instanceof Activity) {
+                        Log.d(TAG, "package receiver: " + intent.toString());
+                        FragmentManager manager = ((Activity) context).getFragmentManager();
+                        Fragment frag = manager.findFragmentById(mMainContentId);
+                        if (frag instanceof BaseFragment) {
+                            ((BaseFragment) frag).onPackageUpdated(intent);
+                        } else {
+                            Log.d(TAG, "not find base fragment: " + frag);
+                        }
+                    }
+                } else if (Intent.ACTION_PACKAGE_ADDED.equals(action)
+                    || Intent.ACTION_PACKAGE_REMOVED.equals(action)) {
+                    Intent it = new Intent(context, DuraSpeedAppService.class);
+                    it.setAction(ViewUtils.ACTION_START_DURASPEED_APP_SERVICE);
+                    it.putExtra(Intent.EXTRA_INTENT, intent);
+                    context.startService(it);
                 }
             }
         }
