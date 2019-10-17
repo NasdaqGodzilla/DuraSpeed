@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">"DuraSpeed gør app'en i forgrunden hurtigere ved at begrænse appsene i baggrunden. Nogle notifikationer udsættes eller modtages muligvis ikke. \n\n DuraSpeed begrænser ikke de apps i baggrunden, der er slået til på listen."</string>
-    <string name="fun_desc">Slås til for at lade apps køre i baggrunden</string>
-    <string name="fun_desc_category">Apps tilladt at køre i baggrunden</string>
-    <string name="category_summary">%1$s apps ud af i alt %2$s er åbne</string>
-    <string name="switch_on_text">"TIL"</string>
-    <string name="switch_off_text">"Fra"</string>
-    <string name="category_menu">Efter kategori</string>
+    <string name="empty_desc">"DuraSpeed gør app'en i forgrunden hurtigere ved at begrænse appsene i baggrunden, nogle notifikationer udsættes eller modtages muligvis ikke.\n\nDuraSpeed begrænser ikke de apps i baggrunden, der er slået til på listen."</string>
+    <string name="fun_desc">Slås til for at lade apps køre i baggrunden.</string>
+
+    <string name="switch_on_text">TIL</string>
+    <string name="switch_off_text">Fra</string>
+
     <string name="turn_all_on_menu">Slå alle til</string>
     <string name="turn_all_off_menu">Slå alle fra</string>
-    <string name="app_list_menu">Efter app-liste</string>
-    <string name="comm_category">Kommunikationer</string>
-    <string name="entertain_category">Underholdning</string>
-    <string name="life_category">Livsstil</string>
-    <string name="tools_category">Værktøjer</string>
-    <string name="game_category">Spil</string>
-    <string name="read_category">Læsning</string>
-    <string name="other_category">Andet</string>
-    <string name="dlg_title">Understøttes ikke</string>
-    <string name="dlg_message">Denne enhed understøtter ikke løbende forstærkning.</string>
-    <string name="dlg_btn_uninstall">"Afinstaller"</string>
-    <string name="tile_summary_on">"TIL"</string>
-    <string name="tile_summary_off">"Fra"</string>
-    <string name="tile_summary_disable">Slå fra</string>
-    <string name="notification_title">DuraSpeed er slået til</string>
-    <string name="notification_content">For at gøre de åbne apps hurtigere, udsættes eller modtages nogle af meddelelserne ikke. Føj de apps, hvis meddelelser du hele tiden vil modtage, til hvid-listen.</string>
-    <string name="notification_btn">Hent den og påmind mig ikke igen</string>
-    <string name="about_it">"Om"</string>
-    <string name="report_sharing_title">Deling af fejlrapport</string>
-    <string name="report_sharing_summary">Hjælp os med at forbedre vores produkt</string>
-    <string name="version_title">"Version"</string>
-    <string name="dlg_disclaimer_title">Ansvarsfraskrivelse</string>
-    <string name="dlg_disclaimer_msg">For at opdatere app-kategori-databasen fra app-butikkerne, opretter DuraSpeed forbindelse til internettet. Dette kan medføre ekstra dataforbrug, hvis du ikke bruger wi-fi.</string>
-    <string name="dlg_report_off_msg">Denne slås fra, når enheder genstartes.</string>
-    <string name="dlg_notify_cancel">ANNULLÉR</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>

@@ -1,59 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed helps boost the foreground APP by restricting background APPs;
-        some notifications may be postponed or not received. \n\n
-        DuraSpeed does not restrict background activities of APPs switched on in the list.</string>
-    <string name="fun_desc">Switch on to allow APPs running in background</string>
-    <string name="fun_desc_category">Apps allowed running in background</string>
-    <string name="category_summary">%1$s apps of total %2$s on</string>
+    <string name="empty_desc">DuraSpeed helps boost the foreground app by restricting background apps, some notifications may be postponed or not received.\n\nDuraSpeed does not restrict background activities of apps switched on in the list.</string>
+    <string name="fun_desc">Switch on to allow apps to run in background.</string>
 
-    <!-- Switch On/Off  -->
     <string name="switch_on_text">On</string>
     <string name="switch_off_text">Off</string>
 
-    <!-- menu -->
-    <string name="category_menu">By category</string>
     <string name="turn_all_on_menu">Turn all on</string>
     <string name="turn_all_off_menu">Turn all off</string>
-    <string name="app_list_menu">By app list</string>
-    <!-- category define -->
-    <string name="comm_category">Communications</string>
-    <string name="entertain_category">Entertainment</string>
-    <string name="life_category">Lifestyle</string>
-    <string name="tools_category">Tools</string>
-    <string name="game_category">Game</string>
-    <string name="read_category">Reading</string>
-    <string name="other_category">Others</string>
-    <!-- dialog of no support -->
-    <string name="dlg_title">No Support</string>
-    <string name="dlg_message">No DuraSpeed support in the device.</string>
-    <string name="dlg_btn_uninstall">Uninstall</string>
-    <!-- Tile summary show on Settings -->
-    <string name="tile_summary_on">ON</string>
-    <string name="tile_summary_off">OFF</string>
-    <string name="tile_summary_disable">Disable</string>
-    <!--notification-->
-    <string name="notification_title">DuraSpeed is on</string>
-    <string name="notification_content">To speed up the active APP, some other notifications
-        may be  postponed or not received. Add the APPs
-        of which the notification need to receive all the time
-        to the white list.</string>
-    <string name="notification_btn">Get it and do not remind again</string>
-    <!--STRING TRANSLATION START [mtk54093]-->
-    <!--disclaimer-->
-    <string name="about_it">About</string>
-    <string name="report_sharing_title">Error Report sharing</string>
-    <string name="report_sharing_summary">Help us to improve the product</string>
-    <string name="version_title">Version</string>
-    <!--disclaimer dialog-->
-    <string name ="dlg_disclaimer_title">Disclaimer</string>
-    <string name="dlg_disclaimer_msg">To update app category database from app stores, DuraSpeed will connect to internet. Some extra data traffic may incur if without Wi-Fi.</string>
-    <!--report sharing dialog-->
-    <string name="dlg_report_off_msg">The switch off will take effect after restart the device.
-    </string>
-    <string name="dlg_notify_cancel">Cancel</string>
-    <string name="dlg_notify_ok">OK</string>
-    <!--STRING TRANSLATION END-->
 </resources>

@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">A DuraSpeed gyorsítja az előtérbe futó alkalmazásokat a háttérben futó alkalmazások letiltásával; ami miatt egyes értesítéseket nem vagy csak késve kaphat meg. \n\n A DuraSpeed nem akadályozza a listán szereplő alkalmazások háttértevékenységét.</string>
-    <string name="fun_desc">Kapcsolja be, a háttérben futó alkalmazások engedélyezéséhez</string>
-    <string name="fun_desc_category">A háttérben való futásra engelyezett alkalmazások</string>
-    <string name="category_summary">%1$s alkamazás - ennyiből: %2$s ekkor:</string>
-    <string name="switch_on_text">"BE"</string>
-    <string name="switch_off_text">"Kikapcsolva"</string>
-    <string name="category_menu">Kategória alapján</string>
+    <string name="empty_desc">A DuraSpeed gyorsítja az előtérbe futó alkalmazásokat a háttérben futó alkalmazások letiltásával, ami miatt egyes értesítéseket nem vagy csak késve kaphat meg.\n\nA DuraSpeed nem akadályozza a listán szereplő alkalmazások háttértevékenységét.</string>
+    <string name="fun_desc">Kapcsolja be, a háttérben futó alkalmazások engedélyezéséhez.</string>
+
+    <string name="switch_on_text">BE</string>
+    <string name="switch_off_text">Kikapcsolva</string>
+
     <string name="turn_all_on_menu">Összes bekapcsolása</string>
     <string name="turn_all_off_menu">Összes kikapcsolása</string>
-    <string name="app_list_menu">Alkalmazáslista alapján</string>
-    <string name="comm_category">Kommunikáció</string>
-    <string name="entertain_category">Szórakozás</string>
-    <string name="life_category">Életstílus</string>
-    <string name="tools_category">Eszközök</string>
-    <string name="game_category">Játék</string>
-    <string name="read_category">Olvasás</string>
-    <string name="other_category">Egyéb</string>
-    <string name="dlg_title">Nincs támogatás</string>
-    <string name="dlg_message">Nincs futásgyorsítás támogatás az eszközön.</string>
-    <string name="dlg_btn_uninstall">"Eltávolítás"</string>
-    <string name="tile_summary_on">"BE"</string>
-    <string name="tile_summary_off">"Kikapcsolva"</string>
-    <string name="tile_summary_disable">"Kikapcsolás"</string>
-    <string name="notification_title">A DuraSpeed bekapcsolva</string>
-    <string name="notification_content">Az aktív alkalmazás felgyorsításához egyes értesítések késleltetve lesznek vagy meg sem érkeznek. Adja hozzá azokat az alkalmazásokat az ún. fehér listához, amelyek értesítéseit minden körülmény között meg szeretne kapni.</string>
-    <string name="notification_btn">Tudomásul vettem, nem kérek több emlékeztetést</string>
-    <string name="about_it">"Információ"</string>
-    <string name="report_sharing_title">Hibajelentés megosztása</string>
-    <string name="report_sharing_summary">Segítsen a termék jobbá tételében</string>
-    <string name="version_title">"Verzió"</string>
-    <string name="dlg_disclaimer_title">Felelősséget kizáró nyilatkozat</string>
-    <string name="dlg_disclaimer_msg">Az alkalmazáskategória adatbázis frissítéséhez az üzletből, a DuraSpeed csatlakoyni fog az internethez. Wi-Fi nélkül extra adatforgalom keletkezhet.</string>
-    <string name="dlg_report_off_msg">A kikapcsolás az eszköz újraindítása után lép érvénybe.</string>
-    <string name="dlg_notify_cancel">MÉGSE</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>

@@ -1,41 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeedはバックグラウンドアプリを制限することによってフォアグラウンドアプリを高速化させます。これによって一部の通知が遅延したり、受信できないことがあります。\n\n DuraSpeedは一覧にあるオンにされたアプリのバックグラウンドでの動作を制限するものではありません。</string>
-    <string name="fun_desc">アプリがバックグラウンドで実行できるように切り替え</string>
-    <string name="fun_desc_category">アプリがバックグラウンドで実行することを許可</string>
-    <string name="category_summary">合計%2$sの内%1$sのアプリがオン</string>
-    <string name="switch_on_text">"ON"</string>
-    <string name="switch_off_text">"OFF"</string>
-    <string name="category_menu">カテゴリー別</string>
+    <string name="empty_desc">DuraSpeedはバックグラウンドアプリを制限することによってフォアグラウンドアプリを高速化させます。これによって一部の通知が遅延したり、受信できないことがあります。\n\nDuraSpeedは一覧にあるオンにされたアプリのバックグラウンドでの動作を制限するものではありません。</string>
+    <string name="fun_desc">アプリがバックグラウンドで実行できるように切り替え。</string>
+
+    <string name="switch_on_text">ON</string>
+    <string name="switch_off_text">OFF</string>
+
     <string name="turn_all_on_menu">すべてをオン</string>
     <string name="turn_all_off_menu">すべてをオフ</string>
-    <string name="app_list_menu">アプリリストで</string>
-    <string name="comm_category">コミュニケーション</string>
-    <string name="entertain_category">エンターテインメント</string>
-    <string name="life_category">ライフスタイル</string>
-    <string name="tools_category">ツール</string>
-    <string name="game_category">ゲーム</string>
-    <string name="read_category">読み取り</string>
-    <string name="other_category">その他</string>
-    <string name="dlg_title">サポート無し</string>
-    <string name="dlg_message">デバイスではブースター動作のサポートなし</string>
-    <string name="dlg_btn_uninstall">"アンインストール"</string>
-    <string name="tile_summary_on">"ON"</string>
-    <string name="tile_summary_off">"OFF"</string>
-    <string name="tile_summary_disable">無効</string>
-    <string name="notification_title">DuraSpeedがオンです</string>
-    <string name="notification_content">アクティブなアプリを高速化するため、いくつかのその他通知が延期され、または受信されないことがあります。すべての時間で通知の受信が必要なアプリをホワイトリストに追加します。</string>
-    <string name="notification_btn">取得し、再度リマインドしない</string>
-    <string name="about_it">"概要"</string>
-    <string name="report_sharing_title">エラーレポートの共有</string>
-    <string name="report_sharing_summary">製品の改善にご協力ください</string>
-    <string name="version_title">"バージョン"</string>
-    <string name="dlg_disclaimer_title">免責事項</string>
-    <string name="dlg_disclaimer_msg">App Storeからアプリのカテゴリーデータベースを更新するために、DuraSpeedは
-インターネットに接続します。 Wi-Fiなしの場合には、追加のデータトラフィッ
-クが発生することがあります。</string>
-    <string name="dlg_report_off_msg">スイッチオフはデバイス再起動後に有効になります。</string>
-    <string name="dlg_notify_cancel">キャンセル</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>

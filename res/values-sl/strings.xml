@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Dura Speed</string>
-    <string name="empty_desc">DuraSpeed pomaga izboljšati osprednje aplikacije, tako da omeji aplikacije v ozadju; nekatera obvestila bodo morda odložena ali jih ne boste prejeli. \n\n DuraSpeed ne omeji aktivnosti tistih aplikacij v ozadju, ki jih na seznamu vključite.</string>
-    <string name="fun_desc">Vklopi in omogoči izvajanje aplikacij v ozadju</string>
-    <string name="fun_desc_category">Aplikacije, katerim je omogočeno izvajanje v ozadju</string>
-    <string name="category_summary">%1$s aplikacij od skupno %2$s je vklopljenih</string>
-    <string name="switch_on_text">"VKLOPLJENO"</string>
-    <string name="switch_off_text">"Izklopljeno"</string>
-    <string name="category_menu">Po kategoriji</string>
+    <string name="empty_desc">DuraSpeed pomaga izboljšati osprednje aplikacije, tako da omeji aplikacije v ozadju, nekatera obvestila bodo morda odložena ali jih ne boste prejeli.\n\nDuraSpeed ne omeji aktivnosti tistih aplikacij v ozadju, ki jih na seznamu vključite.</string>
+    <string name="fun_desc">Vklopi in omogoči izvajanje aplikacij v ozadju.</string>
+
+    <string name="switch_on_text">VKLOPLJENO</string>
+    <string name="switch_off_text">Izklopljeno</string>
+
     <string name="turn_all_on_menu">Vklop vseh</string>
     <string name="turn_all_off_menu">Izklop vseh</string>
-    <string name="app_list_menu">Po seznamu aplikacij</string>
-    <string name="comm_category">Komunikacije</string>
-    <string name="entertain_category">Zabava</string>
-    <string name="life_category">Življenjski slog</string>
-    <string name="tools_category">Orodja</string>
-    <string name="game_category">Igra</string>
-    <string name="read_category">Branje</string>
-    <string name="other_category">Drugi</string>
-    <string name="dlg_title">Brez podpore</string>
-    <string name="dlg_message">Brez podpore za pospeševalnik pri izvajanju v napravi.</string>
-    <string name="dlg_btn_uninstall">"Odstrani"</string>
-    <string name="tile_summary_on">"VKLOPLJENO"</string>
-    <string name="tile_summary_off">"Izklopljeno"</string>
-    <string name="tile_summary_disable">Onemogoči</string>
-    <string name="notification_title">DuraSpeed vključen</string>
-    <string name="notification_content">Da bi pospešili aktivno aplikacijo, lahko odložite ali ne sprejmete nekaterih drugih obvestil Dodajte aplikacije, za katere želite prejemati obvestila, na beli seznam.</string>
-    <string name="notification_btn">Razumem in ne opomni me znova</string>
-    <string name="about_it">"Vizitka"</string>
-    <string name="report_sharing_title">Napaka pri skupni rabi poročila</string>
-    <string name="report_sharing_summary">Pomagajte nam izboljšati izdelek</string>
-    <string name="version_title">"Različica"</string>
-    <string name="dlg_disclaimer_title">Zavrnitev odgovornosti</string>
-    <string name="dlg_disclaimer_msg">DuraSpeed bo za posodobitev zbirke podatkov s kategorijami aplikacij v trgovinah z aplikacijami vzpostavil povezavo z internetom. Če ne uporabljate omrežja Wi-Fi, bo prišlo do prenosa podatkov v mobilnem podatkovnem omrežju.</string>
-    <string name="dlg_report_off_msg">Izklop bo aktiviran po ponovnem zagonu naprave.</string>
-    <string name="dlg_notify_cancel">PREKLIČI</string>
-    <string name="dlg_notify_ok">"V redu"</string>
 </resources>

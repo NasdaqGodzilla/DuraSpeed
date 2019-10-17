@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed umožňuje zosilniť pozadie aplikácie obmedzením pozadia aplikácií; niektoré oznamy môžu byť odložené alebo nemusia byť prijaté. \n\n DuraSpeed neobmedzuje aktivity na pozadí aplikácií, ktoré sa sú v zozname zapnuté.</string>
-    <string name="fun_desc">Zapnite, ak chcete povoliť spustenie aplikácií na pozadí</string>
-    <string name="fun_desc_category">Povolené aplikácie spustené na pozadí</string>
-    <string name="category_summary">Spustených je %1$s aplikácií z celkového počtu %2$s</string>
-    <string name="switch_on_text">"ZAPNUTÉ"</string>
-    <string name="switch_off_text">"Vypnuté"</string>
-    <string name="category_menu">Podľa kategórie</string>
+    <string name="empty_desc">DuraSpeed umožňuje zosilniť pozadie aplikácie obmedzením pozadia aplikácií, niektoré oznamy môžu byť odložené alebo nemusia byť prijaté.\n\nDuraSpeed neobmedzuje aktivity na pozadí aplikácií, ktoré sa sú v zozname zapnuté.</string>
+    <string name="fun_desc">Zapnite, ak chcete povoliť spustenie aplikácií na pozadí.</string>
+
+    <string name="switch_on_text">ZAPNUTÉ</string>
+    <string name="switch_off_text">Vypnuté</string>
+
     <string name="turn_all_on_menu">Zapnúť všetko</string>
     <string name="turn_all_off_menu">Vypnúť všetko</string>
-    <string name="app_list_menu">Podľa zoznamu aplikácií</string>
-    <string name="comm_category">Komunikácia</string>
-    <string name="entertain_category">Zábava</string>
-    <string name="life_category">Životný štýl</string>
-    <string name="tools_category">Nástroje</string>
-    <string name="game_category">Hra</string>
-    <string name="read_category">Čítanie</string>
-    <string name="other_category">Ďalší</string>
-    <string name="dlg_title">Nepodporované</string>
-    <string name="dlg_message">V zariadení nie je podporovaný žiadny spustený zosilňovač</string>
-    <string name="dlg_btn_uninstall">"Odinštalovať"</string>
-    <string name="tile_summary_on">"ZAPNUTÉ"</string>
-    <string name="tile_summary_off">"Vypnuté"</string>
-    <string name="tile_summary_disable">Zakázať</string>
-    <string name="notification_title">Aplikácia DuraSpeed je zapnutá</string>
-    <string name="notification_content">Ak chcete urýchliť aktivovanie aplikácie, niektoré ďalšie oznamy môžu byť odložené alebo nemusia byť prijaté. Pridajte aplikácie, pre ktoré musia byť upozornenia stále prijímané do bielej listiny</string>
-    <string name="notification_btn">Získať to a nepripomínať znovu.</string>
-    <string name="about_it">"Informácie"</string>
-    <string name="report_sharing_title">Zdieľanie správy o  chybe</string>
-    <string name="report_sharing_summary">Pomôžte nám zlepšiť výrobok</string>
-    <string name="version_title">"Verzia"</string>
-    <string name="dlg_disclaimer_title">Odmietnutie</string>
-    <string name="dlg_disclaimer_msg">Ak chcete aktualizovať databázu kategórie aplikácií z úložísk aplikácií, DuraSpeed sa pripojí k internetu. Ak sa pripája bez Wi-Fi, môže vzniknúť dodatočná dátová prevádzka.</string>
-    <string name="dlg_report_off_msg">Vypnutie sa prejaví po reštartovaní zariadenia.</string>
-    <string name="dlg_notify_cancel">ZRUŠIŤ</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>

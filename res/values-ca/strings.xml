@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">"DuraSpeed us ajuda a potenciar l'APP en primer pla restringint les APP de fons; algunes notificacions poden posposar-se o fins i tot pot ser que no es rebin. \n\n DuraSpeed no restringeix les activitats de fons de les APP activades a la llista."</string>
-    <string name="fun_desc">"Activeu-lo per permetre l'execució d'aplicacions en segon pla"</string>
-    <string name="fun_desc_category">Aplicacions que poden executar-se en segon pla</string>
-    <string name="category_summary">"%1$s aplicacions d'un total de %2$s activades"</string>
-    <string name="switch_on_text">"ACTIVAT"</string>
-    <string name="switch_off_text">"Desactivat"</string>
-    <string name="category_menu">Per categoria</string>
+    <string name="empty_desc">"DuraSpeed us ajuda a potenciar l'APP en primer pla restringint les APP de fons, algunes notificacions poden posposar-se o fins i tot pot ser que no es rebin.\n\nDuraSpeed no restringeix les activitats de fons de les APP activades a la llista."</string>
+    <string name="fun_desc">"Activeu-lo per permetre l'execució d'aplicacions en segon pla."</string>
+
+    <string name="switch_on_text">ACTIVAT</string>
+    <string name="switch_off_text">Desactivat</string>
+
     <string name="turn_all_on_menu">Activa-les totes</string>
     <string name="turn_all_off_menu">Desactiva-les totes</string>
-    <string name="app_list_menu">Llista per aplicacions</string>
-    <string name="comm_category">Comunicacions</string>
-    <string name="entertain_category">Entreteniment</string>
-    <string name="life_category">Estil de vida</string>
-    <string name="tools_category">Eines</string>
-    <string name="game_category">Jocs</string>
-    <string name="read_category">Lectura</string>
-    <string name="other_category">Altres</string>
-    <string name="dlg_title">Sense suport</string>
-    <string name="dlg_message">"No hi ha suport per a l'acceleració d'aplicacions en execució al dispositiu."</string>
-    <string name="dlg_btn_uninstall">"Desinstal·la"</string>
-    <string name="tile_summary_on">"ACTIVAT"</string>
-    <string name="tile_summary_off">"Desactivat"</string>
-    <string name="tile_summary_disable">Desactiva</string>
-    <string name="notification_title">DuraSpeed activat</string>
-    <string name="notification_content">"Per accelerar l'aplicació activa, poden posposar-se o poden no rebre's altres notificacions. Afegiu a la llista blanca les aplicacions de les quals en voleu rebre sempre les notificacions."</string>
-    <string name="notification_btn">"Obtingues-ho i no m'ho tornis a recordar"</string>
-    <string name="about_it">"Quant a"</string>
-    <string name="report_sharing_title">"Compartir informe d'error"</string>
-    <string name="report_sharing_summary">Ajudeu-nos a millorar el producte</string>
-    <string name="version_title">"Versió"</string>
-    <string name="dlg_disclaimer_title">Exempció de responsabilitat</string>
-    <string name="dlg_disclaimer_msg">"DuraSpeed es connectarà a Internet per actualitzar la base de dades de categories d'aplicacions. Si no esteu connectat a una Wi-Fi, podeu incórrer en un tràfic de dades addicional."</string>
-    <string name="dlg_report_off_msg">La desconnexió entrarà en vigor en reiniciar el dispositiu.</string>
-    <string name="dlg_notify_cancel">CANCEL·LA</string>
-    <string name="dlg_notify_ok">"D\'acord"</string>
 </resources>

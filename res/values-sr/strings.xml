@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed помаже да се побољшају апликације у предњем плану ограничавањем апликација у позадини; нека обавештења ће можда бити одложена или неће бити примљена. \n\n DuraSpeed не ограничава активности у позадини апликација које су укључене на листи.</string>
-    <string name="fun_desc">Укључите да бисте дозволили извођење апликација у позадини</string>
-    <string name="fun_desc_category">Дозвољено је извршавање апликација у позадини</string>
-    <string name="category_summary">%1$s апликација од укупно %2$s отворено</string>
-    <string name="switch_on_text">"УКЉУЧEНO"</string>
-    <string name="switch_off_text">"Искључено"</string>
-    <string name="category_menu">По категорији</string>
+    <string name="empty_desc">DuraSpeed помаже да се побољшају апликације у предњем плану ограничавањем апликација у позадини, нека обавештења ће можда бити одложена или неће бити примљена.\n\nDuraSpeed не ограничава активности у позадини апликација које су укључене на листи.</string>
+    <string name="fun_desc">Укључите да бисте дозволили извођење апликација у позадини.</string>
+
+    <string name="switch_on_text">УКЉУЧEНO</string>
+    <string name="switch_off_text">Искључено</string>
+
     <string name="turn_all_on_menu">Укључи све</string>
     <string name="turn_all_off_menu">Искључи све</string>
-    <string name="app_list_menu">По листи апликација</string>
-    <string name="comm_category">Комуникације</string>
-    <string name="entertain_category">Забава</string>
-    <string name="life_category">Стил</string>
-    <string name="tools_category">Алати</string>
-    <string name="game_category">Игре</string>
-    <string name="read_category">Читање</string>
-    <string name="other_category">Други</string>
-    <string name="dlg_title">Нема подршке</string>
-    <string name="dlg_message">Нема подршке за DuraSpeed на овом уређају.</string>
-    <string name="dlg_btn_uninstall">"Деинсталирај"</string>
-    <string name="tile_summary_on">"УКЉУЧEНO"</string>
-    <string name="tile_summary_off">"Искључено"</string>
-    <string name="tile_summary_disable">Онемогући</string>
-    <string name="notification_title">DuraSpeed је укључен</string>
-    <string name="notification_content">Да бисте убрзали активну апликацију, нека друга обавештења ће можда бити одложена или неће бити примљена. Додајте апликације чија обавештења је неопходно примати све време на белу листу.</string>
-    <string name="notification_btn">Преузми и немој поново подсећати</string>
-    <string name="about_it">"Основни подаци"</string>
-    <string name="report_sharing_title">Дељење извештаја о грешкама</string>
-    <string name="report_sharing_summary">Помозите нам да побољшамо производ</string>
-    <string name="version_title">"Верзија"</string>
-    <string name="dlg_disclaimer_title">Одрицање одговорности</string>
-    <string name="dlg_disclaimer_msg">Da biste ažurirali bazu podataka aplikacije iz prodavnica aplikacija, DuraSpeed će se povezati na internet. Može doći do dodatnog prenosa podataka ako nema Wi-Fi-a.</string>
-    <string name="dlg_report_off_msg">Искључивање ће бити примењено после поновног покретања уређаја.</string>
-    <string name="dlg_notify_cancel">ОТКАЖИ</string>
-    <string name="dlg_notify_ok">"Потврди"</string>
 </resources>

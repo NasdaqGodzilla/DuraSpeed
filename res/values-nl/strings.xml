@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed helpt de app op de voorgrond door apps op de achtergrond te beperken; een aantal meldingen kan worden opgeschort of worden niet ontvangen.\n\nDuraSpeed beperkt achtergrondactiviteiten van APPS niet die in de lijst zijn ingeschakeld.</string>
-    <string name="fun_desc">Inschakelen om apps op de achtergrond te laten draaien</string>
-    <string name="fun_desc_category">Apps met toestemming om op achtergrond te draaien</string>
-    <string name="category_summary">%1$s apps van totaal %2$s aan</string>
-    <string name="switch_on_text">"AAN"</string>
-    <string name="switch_off_text">"Uit"</string>
-    <string name="category_menu">Op categorie</string>
+    <string name="empty_desc">DuraSpeed helpt de app op de voorgrond door apps op de achtergrond te beperken, een aantal meldingen kan worden opgeschort of worden niet ontvangen.\n\nDuraSpeed beperkt achtergrondactiviteiten van APPS niet die in de lijst zijn ingeschakeld.</string>
+    <string name="fun_desc">Inschakelen om apps op de achtergrond te laten draaien.</string>
+
+    <string name="switch_on_text">AAN</string>
+    <string name="switch_off_text">Uit</string>
+
     <string name="turn_all_on_menu">Alle inschakelen</string>
     <string name="turn_all_off_menu">Alle uitschakelen</string>
-    <string name="app_list_menu">Lijst op app</string>
-    <string name="comm_category">Communicatie</string>
-    <string name="entertain_category">Amusement</string>
-    <string name="life_category">Lifestyle</string>
-    <string name="tools_category">Hulpmiddelen</string>
-    <string name="game_category">Spel</string>
-    <string name="read_category">Lezen</string>
-    <string name="other_category">Overig</string>
-    <string name="dlg_title">Geen ondersteuning</string>
-    <string name="dlg_message">Geen ondersteuning voor Running Booster op het apparaat.</string>
-    <string name="dlg_btn_uninstall">"Verwijderen"</string>
-    <string name="tile_summary_on">"AAN"</string>
-    <string name="tile_summary_off">"Uit"</string>
-    <string name="tile_summary_disable">"Uitschakelen"</string>
-    <string name="notification_title">DuraSpeed is aan</string>
-    <string name="notification_content">"Om de actieve app te versnellen, kunnen sommige andere meldingen worden uitgesteld of niet worden ontvangen. Voeg de APP's toe waarvan meldingen altijd moeten worden ontvangen, toe aan de witte lijst."</string>
-    <string name="notification_btn">Ophalen en mij niet meer herinneren</string>
-    <string name="about_it">"Over"</string>
-    <string name="report_sharing_title">Fout bij delen rapport</string>
-    <string name="report_sharing_summary">Help ons het product te verbeteren</string>
-    <string name="version_title">"Versie"</string>
-    <string name="dlg_disclaimer_title">Zřeknutí se</string>
-    <string name="dlg_disclaimer_msg">Om de app-categorie database bij te werken vanuit app stores, maakt DuraSpeed verbinding met internet. Als hiervoor geen Wi-Fi wordt gebruikt, kan dit wat extra dataverkeer opleveren.</string>
-    <string name="dlg_report_off_msg">Uitschakelen wordt actief na herstarten van het apparaat.</string>
-    <string name="dlg_notify_cancel">ANNULEREN</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>

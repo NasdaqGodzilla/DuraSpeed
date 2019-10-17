@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed-ն օգնում է ուժեղացնել առջևի պլանի ՀԱՎԵԼՎԱԾԸ՝ սահմանափակելով ետին պլանի  ՀԱՎԵԼՎԱԾՆԵՐԻՆ: Որոշ ծանուցումներ կարող են հետաձգվել կամ չստացվել: \n\n DuraSpeed-ը չի սահմանափակում ցանկում միացված  ՀԱՎԵԼՎԱԾՆԵՐԻ ետին պլանի գործողությունները:</string>
+    <string name="empty_desc">DuraSpeed-ն օգնում է ուժեղացնել առջևի պլանի ՀԱՎԵԼՎԱԾԸ՝ սահմանափակելով ետին պլանի  ՀԱՎԵԼՎԱԾՆԵՐԻՆ: Որոշ ծանուցումներ կարող են հետաձգվել կամ չստացվել:\n\nDuraSpeed-ը չի սահմանափակում ցանկում միացված  ՀԱՎԵԼՎԱԾՆԵՐԻ ետին պլանի գործողությունները:</string>
     <string name="fun_desc">Միացնել՝ թույլ տալու համար, որ ԾՐԱԳՐԵՐԸ գործեն հետին պլանում</string>
-    <string name="fun_desc_category">Ծրագրերին թույլատրված է գործել հետին պլանում</string>
-    <string name="category_summary">%1$s ծրագիր՝ ընդամենը %2$s-ից</string>
-    <string name="switch_on_text">"Միացվածէ"</string>
-    <string name="switch_off_text">"Անջատել"</string>
-    <string name="category_menu">Ըստ կատեգորիայի</string>
+
+    <string name="switch_on_text">Միացվածէ</string>
+    <string name="switch_off_text">Անջատել</string>
+
     <string name="turn_all_on_menu">Միացնել բոլորը</string>
     <string name="turn_all_off_menu">Անջատել բոլորը</string>
-    <string name="app_list_menu">Ըստ ծրագրերի ցանկի</string>
-    <string name="comm_category">Կապի միջոցներ</string>
-    <string name="entertain_category">Զվարճանք</string>
-    <string name="life_category">Կենսաոճ</string>
-    <string name="tools_category">Գործիքներ</string>
-    <string name="game_category">Խաղ</string>
-    <string name="read_category">Կարդում է</string>
-    <string name="other_category">Այլ</string>
-    <string name="dlg_title">Աջակցություն չկա</string>
-    <string name="dlg_message">Գործարկման խթանիչի աջակցություն չկա սարքում:</string>
-    <string name="dlg_btn_uninstall">"Ապատեղադրել"</string>
-    <string name="tile_summary_on">"Միացվածէ"</string>
-    <string name="tile_summary_off">"Անջատել"</string>
-    <string name="tile_summary_disable">Կասեցնել</string>
-    <string name="notification_title">DuraSpeed-ը միացված է</string>
-    <string name="notification_content">Ակտիվ ՀԱՎԵԼՎԱԾՆ արագացնելու համար որոշ այլ ծանուցումներ կարող են հետաձգվել կամ չստացվել: Ավելացրեք այն ՀԱՎԵԼՎԱԾՆԵՐԸ, որոնց ծանուցումը պետք է միշտ ստացվի սպիտակ ցուցակին:</string>
-    <string name="notification_btn">Ստանալ և կրկին չհիշեցնել</string>
-    <string name="about_it">"Տեղեկատվություն"</string>
-    <string name="report_sharing_title">Սխալի զեկույցի ուղարկում</string>
-    <string name="report_sharing_summary">Օգնեք մեզ կատարելագործելու արտադրանքը</string>
-    <string name="version_title">"Տարբերակը"</string>
-    <string name="dlg_disclaimer_title">Հրաժարում</string>
-    <string name="dlg_disclaimer_msg">Հավելվածի անվանակարգի տվյալների բազան հավելվածների խանութներից արդիացնելու համար DuraSpeed-ը կկապակցվի համացանցին: Եթե կապակցումը Wi-Fi-ով չէ, ապա կարող է առաջանալ տվյալների լրացուցիչ հոսք:</string>
-    <string name="dlg_report_off_msg">Անջատելն ազդեցություն կունենա սարքը վերագործակելուց հետո:</string>
-    <string name="dlg_notify_cancel">ՉԵՂԱՐԿԵԼ</string>
-    <string name="dlg_notify_ok">"Լավ"</string>
 </resources>

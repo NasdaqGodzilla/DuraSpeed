@@ -21,16 +21,9 @@
         <item name="switchBarMarginEnd">@dimen/switchbar_margin_end</item>
         <item name="switchBarBackgroundColor">?android:attr/colorSecondary</item>
     </style>
-    
-    <!-- Used to color the switch bar controls -->
-    <style name="ThemeOverlay.SwitchBar" parent="@android:style/ThemeOverlay">
-        <!-- Used by controls, e.g. CheckBox, ProgressBar, etc. -->
-        <item name="android:colorAccent">@color/switch_accent_color</item>
-        <item name="switchBarBackgroundColor">@color/switchbar_background_color</item>
+
+    <style name="Theme.RBSettings" parent="@android:style/Theme.DeviceDefault.Settings">
+         <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar.Settings</item>
     </style>
 
-    <style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings" />
-    <style name="Theme.RBSettings" parent="Theme.SettingsBase">
-         <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar.Settings</item>
-  </style>              
 </resources>

@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed helps boost the foreground app by restricting background apps. Some notifications may be delayed or not received. \n\n DuraSpeed does not restrict the background activities of apps switched on in the list.</string>
-    <string name="fun_desc">Switch on to allow apps to run in the background</string>
-    <string name="fun_desc_category">Apps allowed to run in the background</string>
-    <string name="category_summary">%1$s apps of total %2$s on</string>
-    <string name="switch_on_text">"On"</string>
-    <string name="switch_off_text">"Off"</string>
-    <string name="category_menu">By category</string>
+    <string name="empty_desc">DuraSpeed helps boost the foreground app by restricting background apps, some notifications may be postponed or not received.\n\nDuraSpeed does not restrict background activities of apps switched on in the list.</string>
+    <string name="fun_desc">Switch on to allow apps to run in background.</string>
+
+    <string name="switch_on_text">On</string>
+    <string name="switch_off_text">Off</string>
+
     <string name="turn_all_on_menu">Turn all on</string>
     <string name="turn_all_off_menu">Turn all off</string>
-    <string name="app_list_menu">By app list</string>
-    <string name="comm_category">Communications</string>
-    <string name="entertain_category">Entertainment</string>
-    <string name="life_category">Lifestyle</string>
-    <string name="tools_category">Tools</string>
-    <string name="game_category">Games</string>
-    <string name="read_category">Reading</string>
-    <string name="other_category">Others</string>
-    <string name="dlg_title">No Support</string>
-    <string name="dlg_message">No DuraSpeed support in the device.</string>
-    <string name="dlg_btn_uninstall">"Uninstall"</string>
-    <string name="tile_summary_on">"ON"</string>
-    <string name="tile_summary_off">"OFF"</string>
-    <string name="tile_summary_disable">Disable</string>
-    <string name="notification_title">DuraSpeed is on</string>
-    <string name="notification_content">To speed up the active app, other notifications may be postponed or not received. Add apps to the whitelist to ensure their notifications are always received.</string>
-    <string name="notification_btn">Get it and do not remind again</string>
-    <string name="about_it">"About"</string>
-    <string name="report_sharing_title">Error report sharing</string>
-    <string name="report_sharing_summary">Help us to improve our products</string>
-    <string name="version_title">"Version"</string>
-    <string name="dlg_disclaimer_title">Disclaimer</string>
-    <string name="dlg_disclaimer_msg">DuraSpeed will connect to the internet to update the app category database from the app store. Extra data traffic may be incurred if Wi-Fi is unavailable.</string>
-    <string name="dlg_report_off_msg">The change will take effect after restarting the device.</string>
-    <string name="dlg_notify_cancel">CANCEL</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>

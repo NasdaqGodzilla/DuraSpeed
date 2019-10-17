@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed tehostaa etualan SOVELLUSTA rajoittamalla taustan SOVELLUKSIA; jotkut ilmoitukset voivat viivästyä tai niitä ei vastaanoteta. \n\n DuraSpeed ei rajoita tausta-aktiviteetteja luettelon päälle kytketyiltä SOVELLUKSILTA.</string>
+    <string name="empty_desc">DuraSpeed tehostaa etualan SOVELLUSTA rajoittamalla taustan SOVELLUKSIA, jotkut ilmoitukset voivat viivästyä tai niitä ei vastaanoteta.\n\nDuraSpeed ei rajoita tausta-aktiviteetteja luettelon päälle kytketyiltä SOVELLUKSILTA.</string>
     <string name="fun_desc">Kytke päälle salliaksesi SOVELLUSTEN toiminnan taustalla.</string>
-    <string name="fun_desc_category">Sovellusten sallittu toimivan taustalla</string>
-    <string name="category_summary">%1$s sovellusta yhteensä %2$s sovelluksesta päällä</string>
-    <string name="switch_on_text">"KÄYTÖSSÄ"</string>
-    <string name="switch_off_text">"Pois"</string>
-    <string name="category_menu">Luokan mukaan</string>
+
+    <string name="switch_on_text">KÄYTÖSSÄ</string>
+    <string name="switch_off_text">Pois</string>
+
     <string name="turn_all_on_menu">Kytke kaikki päälle</string>
     <string name="turn_all_off_menu">Kytke kaikki pois päältä</string>
-    <string name="app_list_menu">Sovellusluettelon mukaan</string>
-    <string name="comm_category">Tiedonsiirrot</string>
-    <string name="entertain_category">Viihde</string>
-    <string name="life_category">Elämäntapa</string>
-    <string name="tools_category">Työkalut</string>
-    <string name="game_category">Peli</string>
-    <string name="read_category">Lukeminen</string>
-    <string name="other_category">"Muu"</string>
-    <string name="dlg_title">Ei tukea</string>
-    <string name="dlg_message">Ei käynnissä olevan tehostimen tukea laitteessa.</string>
-    <string name="dlg_btn_uninstall">"Poista"</string>
-    <string name="tile_summary_on">"KÄYTÖSSÄ"</string>
-    <string name="tile_summary_off">"Pois"</string>
-    <string name="tile_summary_disable">Poista käytöstä</string>
-    <string name="notification_title">DuraSpeed on päällä</string>
-    <string name="notification_content">Nopeuttaaksesi aktiivista APP:tä, joitakin muita ilmoituksia voidaan lykätä tai niitä ei vastaanoteta. Lisää APP:t, joista tulevat ilmoitukset on vastaanotettava aina sallittujen luetteloon.</string>
-    <string name="notification_btn">Hae se, äläkä muistuta uudelleen</string>
-    <string name="about_it">"Tietoja"</string>
-    <string name="report_sharing_title">Virheraportin jakaminen</string>
-    <string name="report_sharing_summary">Auta meitä parantamaan tuotetta</string>
-    <string name="version_title">"Versio"</string>
-    <string name="dlg_disclaimer_title">Vastuuvapauslauseke</string>
-    <string name="dlg_disclaimer_msg">Päivittääkseen sovellusluokkatietokannan sovelluskaupoista, DuraSpeed muodostaa yhteyden internetiin. Hieman ylimääräisiä dataliikenneveloituksia voi kertyä, jos se tehdään ilman Wi-Fiä.</string>
-    <string name="dlg_report_off_msg">Pois kytkeminen vaikuttaa laitteen uudelleenkäynnistyksen jälkeen.</string>
-    <string name="dlg_notify_cancel">PERU</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>

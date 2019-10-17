@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed  помогает ускорить работу активного приложения путем снижения работы фоновых приложений; некоторые уведомления могут быть отложены или не получены. \т\т DuraSpeed не ограничивает фоновые действия работающих приложений из списка.</string>
-    <string name="fun_desc">Включить, чтобы разрешить запуск приложений в фоновом режиме</string>
-    <string name="fun_desc_category">Приложения, которым разрешено запускаться в фоновом режиме</string>
-    <string name="category_summary">Запущено %1$s приложений из %1$s</string>
-    <string name="switch_on_text">"I"</string>
-    <string name="switch_off_text">"Отключить"</string>
-    <string name="category_menu">По категориям</string>
+    <string name="empty_desc">DuraSpeed  помогает ускорить работу активного приложения путем снижения работы фоновых приложений, некоторые уведомления могут быть отложены или не получены.\т\тDuraSpeed не ограничивает фоновые действия работающих приложений из списка.</string>
+    <string name="fun_desc">Включить, чтобы разрешить запуск приложений в фоновом режиме.</string>
+
+    <string name="switch_on_text">I</string>
+    <string name="switch_off_text">Отключить</string>
+
     <string name="turn_all_on_menu">Включить все</string>
     <string name="turn_all_off_menu">Выключить все</string>
-    <string name="app_list_menu">По списку приложений</string>
-    <string name="comm_category">Общение</string>
-    <string name="entertain_category">Развлечения</string>
-    <string name="life_category">Образ жизни</string>
-    <string name="tools_category">Инструменты</string>
-    <string name="game_category">Игры</string>
-    <string name="read_category">Чтение</string>
-    <string name="other_category">Другое</string>
-    <string name="dlg_title">Не поддерживается</string>
-    <string name="dlg_message">Программа для повышения производительности не поддерживается данным устройством. </string>
-    <string name="dlg_btn_uninstall">"Удалить"</string>
-    <string name="tile_summary_on">"I"</string>
-    <string name="tile_summary_off">"Отключить"</string>
-    <string name="tile_summary_disable">"Отключить"</string>
-    <string name="notification_title">Включено DuraSpeed</string>
-    <string name="notification_content">Для ускорения активного приложения некоторые уведомления можно отложить или не получать. Добавьте приложения, уведомления от которых необходимо получать всегда, в утвержденный список. </string>
-    <string name="notification_btn">Установите и не напоминайте повторно</string>
-    <string name="about_it">"Контактные данные"</string>
-    <string name="report_sharing_title">Отчет об ошибке при предоставлении общего доступа</string>
-    <string name="report_sharing_summary">Помогите нам улучшить продукт</string>
-    <string name="version_title">"Версия"</string>
-    <string name="dlg_disclaimer_title">Отказ от ответственности</string>
-    <string name="dlg_disclaimer_msg">Чтобы обновить базу данных категорий приложений из магазинов приложений, DuraSpeed подключится к Интернету. При отсутствии Wi-Fi это может привести к дополнительному трафику.</string>
-    <string name="dlg_report_off_msg">Отключение вступит в силу после перезапуска устройства</string>
-    <string name="dlg_notify_cancel">ОТМЕНИТЬ</string>
-    <string name="dlg_notify_ok">"ОК"</string>
 </resources>

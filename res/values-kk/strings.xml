@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed құралы фондық ҚОЛДАНБАЛАРДЫ шектеумен басымдылығы жоғары ҚОЛДАНБАНЫ қосуға көмектеседі; кейбір хабарландырулар кейінге қалдырылуы немесе алынбауы мүмкін. \n\n DuraSpeed құралы тізімдегі қосылған ҚОЛДАНБАЛАРДЫҢ фондық әрекеттерін шектемейді.</string>
-    <string name="fun_desc">Фонда APP іске қосуға мүмкіндік беру үшін қосу</string>
-    <string name="fun_desc_category">Фонда іске қосуға болатын қолданбалар</string>
-    <string name="category_summary">Жалпы %2$s қолданбадан %1$s қосулы</string>
+    <string name="empty_desc">DuraSpeed құралы фондық ҚОЛДАНБАЛАРДЫ шектеумен басымдылығы жоғары ҚОЛДАНБАНЫ қосуға көмектеседі, кейбір хабарландырулар кейінге қалдырылуы немесе алынбауы мүмкін.\n\nDuraSpeed құралы тізімдегі қосылған ҚОЛДАНБАЛАРДЫҢ фондық әрекеттерін шектемейді.</string>
+    <string name="fun_desc">Фонда APP іске қосуға мүмкіндік беру үшін қосу.</string>
+
     <string name="switch_on_text">Қосу</string>
-    <string name="switch_off_text">"Өшірулі"</string>
-    <string name="category_menu">Санат бойынша</string>
+    <string name="switch_off_text">Өшірулі</string>
+
     <string name="turn_all_on_menu">Барлығын қосу</string>
     <string name="turn_all_off_menu">Барлығын өшіру</string>
-    <string name="app_list_menu">Қолданбалар тізімі бойынша</string>
-    <string name="comm_category">Байланыстар</string>
-    <string name="entertain_category">Ойын-сауық</string>
-    <string name="life_category">Өмір стилі</string>
-    <string name="tools_category">Құралдар</string>
-    <string name="game_category">Ойын</string>
-    <string name="read_category">Оқу</string>
-    <string name="other_category">Басқалар</string>
-    <string name="dlg_title">Қолдау жоқ</string>
-    <string name="dlg_message">Құрылғыда ешбір қосу құралына қолдау көрсетілмейді.</string>
-    <string name="dlg_btn_uninstall">"Алмау"</string>
-    <string name="tile_summary_on">Қосу</string>
-    <string name="tile_summary_off">"Өшірулі"</string>
-    <string name="tile_summary_disable">Өшіру</string>
-    <string name="notification_title">DuraSpeed қосулы</string>
-    <string name="notification_content">Белсенді ҚОЛДАНБАНЫ жылдамдату үшін кейбір басқа хабарландырулар кейінге қалдырылуы немесе алынбауы мүмкін. Хабарландыру барлық уақытта алынуы ҚОЛДАНБАЛАРДЫ ақ тізімге қосыңыз.</string>
-    <string name="notification_btn">Оны алу және қайта еске салмау</string>
-    <string name="about_it">Анықтама</string>
-    <string name="report_sharing_title">Қате туралы есепті ортақ пайдалану</string>
-    <string name="report_sharing_summary">Өнімді жетілдіруге көмек</string>
-    <string name="version_title">"Нұсқа"</string>
-    <string name="dlg_disclaimer_title">Жауапкершіліктен бас тартау</string>
-    <string name="dlg_disclaimer_msg">Қолданба санаты дерекқорын қолданба дүкендерінен жаңарту үшін, DuraSpeed жүйесі интернетке қосылады. Wi-Fi желісі болмаса, қосымша деректер трафигі алынуы мүмкін.</string>
-    <string name="dlg_report_off_msg">Өшіру әрекеті тек құрылғыны қайта іске қосқаннан орындалады.</string>
-    <string name="dlg_notify_cancel">БОЛДЫРМАУ</string>
-    <string name="dlg_notify_ok">"Жарайды"</string>
 </resources>

@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">"DuraSpeed aiuta a potenziare l'APP in primo piano limitando le APP in background; alcune notifiche potrebbero essere posticipate o non ricevute affatto. \n\n DuraSpeed non limita le attività in background di quelle APP che sono attivate nell'elenco."</string>
-    <string name="fun_desc">Attivare per permettere alle APP di essere eseguite in background</string>
-    <string name="fun_desc_category">App che possono essere eseguite in background</string>
-    <string name="category_summary">%1$s app su un totale di %2$s attive</string>
-    <string name="switch_on_text">"ON"</string>
-    <string name="switch_off_text">"Disattivati"</string>
-    <string name="category_menu">Per categoria</string>
+    <string name="empty_desc">"DuraSpeed aiuta a potenziare l'APP in primo piano limitando le APP in background, alcune notifiche potrebbero essere posticipate o non ricevute affatto.\n\nDuraSpeed non limita le attività in background di quelle APP che sono attivate nell'elenco."</string>
+    <string name="fun_desc">Attivare per permettere alle APP di essere eseguite in background.</string>
+
+    <string name="switch_on_text">ON</string>
+    <string name="switch_off_text">Disattivati</string>
+
     <string name="turn_all_on_menu">Attiva tutto</string>
     <string name="turn_all_off_menu">Disattiva tutto</string>
-    <string name="app_list_menu">Per elenco app</string>
-    <string name="comm_category">Comunicazioni</string>
-    <string name="entertain_category">Intrattenimento</string>
-    <string name="life_category">Lifestyle</string>
-    <string name="tools_category">Strumenti</string>
-    <string name="game_category">Gioco</string>
-    <string name="read_category">Lettura</string>
-    <string name="other_category">Altro</string>
-    <string name="dlg_title">Non supportato</string>
-    <string name="dlg_message">Nessun supporto per Running Booster sul dispositivo.</string>
-    <string name="dlg_btn_uninstall">"Disinstalla"</string>
-    <string name="tile_summary_on">"ON"</string>
-    <string name="tile_summary_off">"Disattivati"</string>
-    <string name="tile_summary_disable">"Disattiva"</string>
-    <string name="notification_title">DuraSpeed è attivo</string>
-    <string name="notification_content">Per accelerare l’APP attiva, alcune altre notifiche possono essere differite o non ricevute. Aggiungere alla lista bianca le APP di cui è necessario ricevere sempre le notifiche.</string>
-    <string name="notification_btn">Ho capito, non ricordarmelo di nuovo</string>
-    <string name="about_it">"Informazioni"</string>
-    <string name="report_sharing_title">Condivisione rapporti errore</string>
-    <string name="report_sharing_summary">Aiutaci a migliorare il prodotto</string>
-    <string name="version_title">"Versione"</string>
-    <string name="dlg_disclaimer_title">Limitazione delle responsabilità</string>
-    <string name="dlg_disclaimer_msg">Per eseguire l’aggiornamento del database categorie app dagli app store, DuraSpeed si connetterà ad Internet. Potrebbe verificarsi del traffico dati extra in caso di assenza della Wi-Fi.</string>
-    <string name="dlg_report_off_msg">La disattivazione è applicata al riavvio del dispositivo.</string>
-    <string name="dlg_notify_cancel">ANNULLA</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>

@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed допомагає підсилити програми переднього плану, обмежуючи програми тла; деякі повідомлення можуть бути відстрочені або не дійти.\n\nDuraSpeed не обмежує діяльність програм тла, увімкнених у списку.</string>
-    <string name="fun_desc">Увімкніть, щоб дозволити програмам працювати на тлі</string>
-    <string name="fun_desc_category">Програми, яким дозволено працювати на тлі</string>
-    <string name="category_summary">Увімкнен %1$s програм(и) з %2$s</string>
-    <string name="switch_on_text">"УВІМКНЕНО"</string>
-    <string name="switch_off_text">"Вимкнено"</string>
-    <string name="category_menu">За категорією</string>
+    <string name="empty_desc">DuraSpeed допомагає підсилити програми переднього плану, обмежуючи програми тла, деякі повідомлення можуть бути відстрочені або не дійти.\n\nDuraSpeed не обмежує діяльність програм тла, увімкнених у списку.</string>
+    <string name="fun_desc">Увімкніть, щоб дозволити програмам працювати на тлі.</string>
+
+    <string name="switch_on_text">УВІМКНЕНО</string>
+    <string name="switch_off_text">Вимкнено</string>
+
     <string name="turn_all_on_menu">Увімкнути все</string>
     <string name="turn_all_off_menu">Вимкнути все</string>
-    <string name="app_list_menu">За списком програм</string>
-    <string name="comm_category">"Зв'язок"</string>
-    <string name="entertain_category">Розваги</string>
-    <string name="life_category">Спосіб життя</string>
-    <string name="tools_category">Інструменти</string>
-    <string name="game_category">Гра</string>
-    <string name="read_category">Читання</string>
-    <string name="other_category">Інші</string>
-    <string name="dlg_title">Без підтримки</string>
-    <string name="dlg_message">На пристрої не підтримується робота підсилювача.</string>
-    <string name="dlg_btn_uninstall">"Видалити"</string>
-    <string name="tile_summary_on">"УВІМКНЕНО"</string>
-    <string name="tile_summary_off">"Вимкнено"</string>
-    <string name="tile_summary_disable">Вимкнути</string>
-    <string name="notification_title">Увімкнено DuraSpeed</string>
-    <string name="notification_content">Щоб прискорити активну програму, інші сповіщення можуть бути відстрочені або не отримані. Додайте до білого списку програми, сповіщення від яких слід отримувати завжди.</string>
-    <string name="notification_btn">Отримати і більше не нагадувати</string>
-    <string name="about_it">"Про контакт"</string>
-    <string name="report_sharing_title">Спільне користування звітом помилки</string>
-    <string name="report_sharing_summary">Допоможіть нам вдосконалювати виріб</string>
-    <string name="version_title">"Версія"</string>
-    <string name="dlg_disclaimer_title">Застереження</string>
-    <string name="dlg_disclaimer_msg">"Щоб оновити базу даних категорій програм із магазинів програм, DuraSpeed під'єднуватиметься до Інтернету. Це може викликати додатковий трафік даних, якщо не використовуватиметься Wi-Fi."</string>
-    <string name="dlg_report_off_msg">Вимикання набере чинності після перезапуску пристрою.</string>
-    <string name="dlg_notify_cancel">СКАСУВАТИ</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>

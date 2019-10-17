@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed hjälper till att öka förgrundsAPPEN genom att begränsa bakgrundsAPPAR; vissa aviseringar kan skjutas upp eller inte fås. \n\n DuraSpeed begränsar inte bakgrundsaktiviteter av APPAR som är påslagna i listan.</string>
-    <string name="fun_desc">Slå på för att tillåta appar att köras i bakgrunden</string>
-    <string name="fun_desc_category">Appar tillåts köras i bakgrunden</string>
-    <string name="category_summary">%1$s appar av totalt %2$s öppna</string>
-    <string name="switch_on_text">"PÅ"</string>
-    <string name="switch_off_text">"Av"</string>
-    <string name="category_menu">Efter kategori</string>
+    <string name="empty_desc">DuraSpeed hjälper till att öka förgrundsAPPEN genom att begränsa bakgrundsAPPAR, vissa aviseringar kan skjutas upp eller inte fås.\n\nDuraSpeed begränsar inte bakgrundsaktiviteter av APPAR som är påslagna i listan.</string>
+    <string name="fun_desc">Slå på för att tillåta appar att köras i bakgrunden.</string>
+
+    <string name="switch_on_text">PÅ</string>
+    <string name="switch_off_text">Av</string>
+
     <string name="turn_all_on_menu">Slå på alla</string>
     <string name="turn_all_off_menu">Stäng av alla</string>
-    <string name="app_list_menu">Efter applista</string>
-    <string name="comm_category">Kommunikationer</string>
-    <string name="entertain_category">Underhållning</string>
-    <string name="life_category">Livsstil</string>
-    <string name="tools_category">Verktyg</string>
-    <string name="game_category">Spel</string>
-    <string name="read_category">Läser</string>
-    <string name="other_category">Övrigt</string>
-    <string name="dlg_title">Saknar stöd</string>
-    <string name="dlg_message">Enheten saknar stöd för att köra förstärkningar.</string>
-    <string name="dlg_btn_uninstall">"Avinstallera"</string>
-    <string name="tile_summary_on">"PÅ"</string>
-    <string name="tile_summary_off">"Av"</string>
-    <string name="tile_summary_disable">Inaktivera</string>
-    <string name="notification_title">DuraSpeed är på</string>
-    <string name="notification_content">För att påskynda aktiv APP kan vissa andra meddelanden skjutas upp eller inte mottagas. Lägg till APPs som meddelandet måste ta emot hela tiden till den vita listan.</string>
-    <string name="notification_btn">Ta emot det och påminn inte igen</string>
-    <string name="about_it">"Om"</string>
-    <string name="report_sharing_title">Delning av felrapport</string>
-    <string name="report_sharing_summary">Hjälp oss att förbättra produkten</string>
-    <string name="version_title">"Version"</string>
-    <string name="dlg_disclaimer_title">Ansvarsfriskrivning</string>
-    <string name="dlg_disclaimer_msg">För att uppdatera appkategorins databas från appbutiken kommer DuraSpeed att ansluta till Internet. Vissa extra datakostnader kan inträffa utan Wi-Fi.</string>
-    <string name="dlg_report_off_msg">Avstängningen träder i kraft efter omstart av enheten.</string>
-    <string name="dlg_notify_cancel">AVBRYT</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>

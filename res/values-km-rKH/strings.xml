@@ -3,37 +3,10 @@
     <string name="app_name">DuraSpeed</string>
     <string name="empty_desc">DuraSpeed ជួយជម្រុញកម្មវិធីផ្ទៃខាងមុខដោយដាក់កំហិតកម្មវិធីផ្ទៃខាងក្រោយ។ ការជូនដំណឹងខ្លះអាចត្រូវបានពន្យារពេល ឬមិនបានទទួល។ \n\n DuraSpeed មិនដាក់កំហិតសកម្មភាពផ្ទៃខាងក្រោយនៃកម្មវិធីដែលបានបើកក្នុងបញ្ជីឡើយ។</string>
     <string name="fun_desc">បើកដើម្បីអនុញ្ញាតការដំណើរការកម្មវិធីក្នុងផ្ទៃខាងក្រោយ</string>
-    <string name="fun_desc_category">កម្មវិធីដែលបានអនុញ្ញាតឱ្យដំណើរការក្នុងផ្ទៃខាងក្រោយ</string>
-    <string name="category_summary">%1$s កម្មវិធីនៃ %2$s សរុបនៅ</string>
+
     <string name="switch_on_text">"បើក"</string>
     <string name="switch_off_text">"បិទ"</string>
-    <string name="category_menu">តាមប្រភេទ</string>
+
     <string name="turn_all_on_menu">បើកទាំងអស់</string>
     <string name="turn_all_off_menu">បិទទាំងអស់</string>
-    <string name="app_list_menu">តាមបញ្ជីកម្មវិធី</string>
-    <string name="comm_category">ទូរគមនាគមន៍</string>
-    <string name="entertain_category">ការកំសាន្ត</string>
-    <string name="life_category">របៀបរស់នៅ</string>
-    <string name="tools_category">ឧបករណ៍</string>
-    <string name="game_category">ហ្គេម</string>
-    <string name="read_category">កំពុងអាន</string>
-    <string name="other_category">ផ្សេងទៀត</string>
-    <string name="dlg_title">គ្មានការគាំទ្រ</string>
-    <string name="dlg_message">គ្មានការគាំទ្រកម្មវិធីជម្រុញដំណើរការនៅក្នុងឧបករណ៍។</string>
-    <string name="dlg_btn_uninstall">"លុប"</string>
-    <string name="tile_summary_on">"បើក"</string>
-    <string name="tile_summary_off">"បិទ"</string>
-    <string name="tile_summary_disable">ធ្វើឲ្យអសកម្ម</string>
-    <string name="notification_title">DuraSpeed បើក</string>
-    <string name="notification_content">ដើម្បីបង្កើនល្បឿនកម្មវិធីសកម្ម ការជូនដំណឹងផ្សេងទៀតប្រហែលជាត្រូវផ្អាក ឬ មិនទទួលបានទេ។ បន្ថែមកម្មវិធីដែលត្រូវការជូនដំណឹងនៅគ្រប់ពេលវេលាទៅកាន់បញ្ជីស។</string>
-    <string name="notification_btn">ទទួលវា និងកុំរំលឹកម្ដងទៀត</string>
-    <string name="about_it">"អំពី"</string>
-    <string name="report_sharing_title">មានកំហុសការចែករំលែករបាយការណ៍</string>
-    <string name="report_sharing_summary">ជួយឲ្យយើងខ្ញុំ​លើកកម្ពស់គុណភាពផលិតផល​កម្មវិធី​បាន</string>
-    <string name="version_title">"កំណែ"</string>
-    <string name="dlg_disclaimer_title">ការបដិសេធ</string>
-    <string name="dlg_disclaimer_msg">ដើម្បីអាប់ដេតមូលដ្ឋានទិន្នន័យនៃកូនកម្មវិធីពីស្ទ័រនៃកូនកម្មវិធីបាន DuraSpeed នឹងភ្ជាប់អ៊ីនធឺណិត។ បើធ្វើដោយគ្មានប្រព័ន្ធ Wi-Fi នឹងមានការគិតថ្លៃមួយចំនួនលើការប្រើទិន្នន័យអ៊ីនធឺណិតបន្ថែម។</string>
-    <string name="dlg_report_off_msg">ប្ដូរទៅបិទ នឹងចាប់មានប្រសិទ្ធភាព ក្រោយការបិទ​ហើយបើក​ឧបករណ៍ឡើងវិញ។</string>
-    <string name="dlg_notify_cancel">បោះបង់</string>
-    <string name="dlg_notify_ok">"យល់ព្រម"</string>
 </resources>

@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed با محدود کردن برنامه های پس زمینه، سرعت برنامه های در حال اجرا در پیش زمینه را افزایش می دهد، بعضی از اعلان ها ممکن است به تعویق بیفتند یا دریافت نشوند. \n\nDuraSpeed فعالیت های پس زمینه برنامه هایی را که در لیست فعال شده اند، محدود نمی کند.</string>
-    <string name="fun_desc">فعال کنید تا برنامه ها اجازه داشته باشند در پس زمینه اجرا شوند</string>
-    <string name="fun_desc_category">برنامه ها اجازه دارند در پس زمینه اجرا شوند</string>
-    <string name="category_summary">%1$s برنامه از کل %2$s برنامه فعال است</string>
-    <string name="switch_on_text">"روشن"</string>
-    <string name="switch_off_text">"خاموش"</string>
-    <string name="category_menu">بر اساس دسته بندی</string>
+    <string name="empty_desc">DuraSpeed با محدود کردن برنامه های پس زمینه، سرعت برنامه های در حال اجرا در پیش زمینه را افزایش می دهد، بعضی از اعلان ها ممکن است به تعویق بیفتند یا دریافت نشوند.\n\nDuraSpeed فعالیت های پس زمینه برنامه هایی را که در لیست فعال شده اند، محدود نمی کند.</string>
+    <string name="fun_desc">فعال کنید تا برنامه ها اجازه داشته باشند در پس زمینه اجرا شوند.</string>
+
+    <string name="switch_on_text">روشن</string>
+    <string name="switch_off_text">خاموش</string>
+
     <string name="turn_all_on_menu">فعال کردن همه</string>
     <string name="turn_all_off_menu">غیرفعال کردن همه</string>
-    <string name="app_list_menu">بر اساس لیست برنامه</string>
-    <string name="comm_category">ارتباطات</string>
-    <string name="entertain_category">سرگرمی</string>
-    <string name="life_category">سبک زندگی</string>
-    <string name="tools_category">ابزار</string>
-    <string name="game_category">بازی</string>
-    <string name="read_category">خواندن</string>
-    <string name="other_category">سایر</string>
-    <string name="dlg_title">پشتیبانی نمی شود</string>
-    <string name="dlg_message">از Running Booster در دستگاه پشتیبانی نمی شود.</string>
-    <string name="dlg_btn_uninstall">"حذفنصب"</string>
-    <string name="tile_summary_on">"روشن"</string>
-    <string name="tile_summary_off">"خاموش"</string>
-    <string name="tile_summary_disable">"غیرفعالکردن"</string>
-    <string name="notification_title">DuraSpeed فعال است</string>
-    <string name="notification_content">برای افزایش سرعت برنامه فعال، بعضی از سایر اعلان ها ممکن است به تعویق بیفتند یا دریافت نشوند. برنامه هایی را به لیست موارد مجاز اضافه کنید که لازم است اعلان آنها همیشه دریافت شوند.</string>
-    <string name="notification_btn">دریافت شود و دوباره یادآوری نشود</string>
-    <string name="about_it">"درباره"</string>
-    <string name="report_sharing_title">خطا در اشتراک گذاری گزارش</string>
-    <string name="report_sharing_summary">در بهبود محصول به ما کمک کنید</string>
-    <string name="version_title">"نسخه"</string>
-    <string name="dlg_disclaimer_title">سلب مسئولیت</string>
-    <string name="dlg_disclaimer_msg">برای به روز رسانی پایگاه داده دسته برنامه از فروشگاه برنامه، DuraSpeed به اینترنت وصل می شود. اگر به Wi-Fi وصل نباشید ممکن است ترافیک داده اضافی ایجاد شود.</string>
-    <string name="dlg_report_off_msg">غیرفعال کردن بعد از راه اندازی مجدد دستگاه تأثیر می گذارد.</string>
-    <string name="dlg_notify_cancel">لغو</string>
-    <string name="dlg_notify_ok">"تأیید"</string>
 </resources>

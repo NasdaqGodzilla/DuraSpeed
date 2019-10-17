@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!-- Copyright (C) 2014 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,11 +14,11 @@
      limitations under the License.
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- The apps default status is enabled -->
-    <string-array name="app_whitelist" translatable="false">
-    </string-array>
-    <!-- Hide apps for special reason -->
-    <string-array name="app_hidelist" translatable="false">
-    </string-array>
-</resources>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/turn_all_on"
+        android:title="@string/turn_all_on_menu"/>
+    <item
+        android:id="@+id/turn_all_off"
+        android:title="@string/turn_all_off_menu"/>
+</menu>

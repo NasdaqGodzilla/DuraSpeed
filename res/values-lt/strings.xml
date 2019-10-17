@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">„DuraSpeed“</string>
-    <string name="empty_desc">Funkcija „DuraSpeed“ padeda pagerinti pirmame plane veikiančios PROGRAMĖLĖS veikimą, apribodama fone veikiančias PROGRAMĖLES; tam tikri pranešimai gali būti atidėti arba negaunami. \n\n Funkcija „DuraSpeed“ neapriboja į sąrašą įtrauktų PROGRAMĖLIŲ fone vykdomos veiklos.</string>
-    <string name="fun_desc">Įjunkite, kad leistumėte fone veikiančias programėles</string>
-    <string name="fun_desc_category">Fone veikiančios leistos programėlės</string>
-    <string name="category_summary">Veikia %1$s programėlės iš visų %2$s</string>
-    <string name="switch_on_text">"ĮJUNGTA"</string>
-    <string name="switch_off_text">"Išjungta"</string>
-    <string name="category_menu">Pagal kategoriją</string>
+    <string name="empty_desc">Funkcija „DuraSpeed“ padeda pagerinti pirmame plane veikiančios PROGRAMĖLĖS veikimą, apribodama fone veikiančias PROGRAMĖLES, tam tikri pranešimai gali būti atidėti arba negaunami.\n\nFunkcija „DuraSpeed“ neapriboja į sąrašą įtrauktų PROGRAMĖLIŲ fone vykdomos veiklos.</string>
+    <string name="fun_desc">Įjunkite, kad leistumėte fone veikiančias programėles.</string>
+
+    <string name="switch_on_text">ĮJUNGTA</string>
+    <string name="switch_off_text">Išjungta</string>
+
     <string name="turn_all_on_menu">Įjungti viską</string>
     <string name="turn_all_off_menu">Išjungti viską</string>
-    <string name="app_list_menu">Pagal programėlių sąrašą</string>
-    <string name="comm_category">Komunikacijos</string>
-    <string name="entertain_category">Pramogos</string>
-    <string name="life_category">Gyvenimo būdas</string>
-    <string name="tools_category">Įrankiai</string>
-    <string name="game_category">Žaidimai</string>
-    <string name="read_category">Skaitoma</string>
-    <string name="other_category">Kiti</string>
-    <string name="dlg_title">Nepalaikoma</string>
-    <string name="dlg_message">Šiame prietaise veikianti spartinimo funkcija nepalaikoma.</string>
-    <string name="dlg_btn_uninstall">"Pašalinti"</string>
-    <string name="tile_summary_on">"ĮJUNGTA"</string>
-    <string name="tile_summary_off">"Išjungta"</string>
-    <string name="tile_summary_disable">Išjungti</string>
-    <string name="notification_title">„DuraSpeed“ įjungta</string>
-    <string name="notification_content">Norint paspartinti aktyvios PROGRAMĖLĖS veikimą, kai kurie pranešimai gali būti atidėti, galite jų negauti. Į baltąjį sąrašą įtraukit PROGRAMĖLES, kurių pranešimus norite gauti visada.</string>
-    <string name="notification_btn">Supratau, daugiau nepriminti</string>
-    <string name="about_it">"Apie"</string>
-    <string name="report_sharing_title">Klaidos ataskaitos bendrinimas</string>
-    <string name="report_sharing_summary">Padėkite mums pagerinti gaminį</string>
-    <string name="version_title">"Versija"</string>
-    <string name="dlg_disclaimer_title">Atsakomybės atsisakymas</string>
-    <string name="dlg_disclaimer_msg">„DuraSpeed“ prisijungs prie interneto, kad atnaujintų programėlių kategorijų duomenų bazę iš programėlių saugyklos. Jei neveiks „Wi-Fi“ ryšys, gali būti papildomai išnaudota šiek tiek mobiliųjų duomenų.</string>
-    <string name="dlg_report_off_msg">Išjungta bus iš naujo paleidus prietaisą.</string>
-    <string name="dlg_notify_cancel">ATŠAUKTI</string>
-    <string name="dlg_notify_ok">"Gerai"</string>
 </resources>

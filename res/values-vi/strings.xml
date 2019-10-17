@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">DuraSpeed giúp tăng tốc ứng dụng nền trước bằng cách giới hạn các ứng dụng nền sau; một số thông báo có thể bị trì hoãn hoặc không được nhận. \n\n DuraSpeed không giới hạn các hoạt động nền sau của những ứng dụng đã bật trong danh sách.</string>
-    <string name="fun_desc">Bật để cho phép các ứng dụng đang chạy ở nền sau</string>
-    <string name="fun_desc_category">Cho phép các ứng dụng đang chạy ở nền sau</string>
-    <string name="category_summary">%1$s ứng dụng trong tổng số %2$s đang bật</string>
-    <string name="switch_on_text">"BẬT"</string>
-    <string name="switch_off_text">"Tắt"</string>
-    <string name="category_menu">Theo hạng mục</string>
+    <string name="empty_desc">DuraSpeed giúp tăng tốc ứng dụng nền trước bằng cách giới hạn các ứng dụng nền sau, một số thông báo có thể bị trì hoãn hoặc không được nhận.\n\nDuraSpeed không giới hạn các hoạt động nền sau của những ứng dụng đã bật trong danh sách.</string>
+    <string name="fun_desc">Bật để cho phép các ứng dụng đang chạy ở nền sau.</string>
+
+    <string name="switch_on_text">BẬT</string>
+    <string name="switch_off_text">Tắt</string>
+
     <string name="turn_all_on_menu">Bật tất cả</string>
     <string name="turn_all_off_menu">Tắt tất cả</string>
-    <string name="app_list_menu">Theo d.sách ứng dụng</string>
-    <string name="comm_category">Truyền thông</string>
-    <string name="entertain_category">Giải trí</string>
-    <string name="life_category">Lối sống</string>
-    <string name="tools_category">Công cụ</string>
-    <string name="game_category">Trò chơi</string>
-    <string name="read_category">Đang đọc</string>
-    <string name="other_category">Khác</string>
-    <string name="dlg_title">Không hỗ trợ</string>
-    <string name="dlg_message">Không hỗ trợ bộ tăng tốc đang chạy trong thiết bị.</string>
-    <string name="dlg_btn_uninstall">"Gỡcàiđặt"</string>
-    <string name="tile_summary_on">"BẬT"</string>
-    <string name="tile_summary_off">"Tắt"</string>
-    <string name="tile_summary_disable">"Tắt"</string>
-    <string name="notification_title">DuraSpeed đang bật</string>
-    <string name="notification_content">Để tăng tốc ứng dụng hoạt động, một số thông báo khác có thể bị trì hoãn hoặc không được nhận. Thêm các ứng dụng mà thông báo liên quan cần nhận mọi lúc vào d.sách trắng.</string>
-    <string name="notification_btn">Đã hiểu và đừng nhắc lại</string>
-    <string name="about_it">"Giới thiệu"</string>
-    <string name="report_sharing_title">Chia sẻ báo cáo lỗi</string>
-    <string name="report_sharing_summary">Giúp chúng tôi cải tiến sản phẩm</string>
-    <string name="version_title">"Phiên bản"</string>
-    <string name="dlg_disclaimer_title">Khước từ trách nhiệm</string>
-    <string name="dlg_disclaimer_msg">Để cập nhật cơ sở dữ liệu danh mục ứng dụng từ cửa hàng ứng dụng, DuraSpeed sẽ kết nối internet. Có thể sử dụng một số lưu lượng dữ liệu bổ sung nếu không có mạng Wi-Fi.</string>
-    <string name="dlg_report_off_msg">Thao tác tắt sẽ có hiệu lực sau khi khởi động lại thiết bị.</string>
-    <string name="dlg_notify_cancel">HỦY</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>

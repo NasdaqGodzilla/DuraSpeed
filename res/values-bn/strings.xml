@@ -3,37 +3,10 @@
     <string name="app_name">ডুরাস্পিড</string>
     <string name="empty_desc">DuraSpeed ব্যাকগ্রাউন্ড অ্যাপ সীমিত করে ফোরগ্রাউন্ড অ্যাপের গতি বৃদ্ধিতে সাহায্য করে; কিছু নোটিফিকেশন স্থগিত বা নাও পাওয়া যেতে পারে। \n\n DuraSpeed তালিকায় চালু থাকা অ্যাপের ব্যাকগ্রাউন্ড কর্মকাণ্ড সীমিত করে না।</string>
     <string name="fun_desc">ব্যাকগ্রাউন্ডে অ্যাপ চালানোর অনুমতি দিতে সুইচ করুন</string>
-    <string name="fun_desc_category">ব্যাকগ্রাউন্ডে অ্যাপ চালানোর অনুমতি দেওয়া হয়েছে</string>
-    <string name="category_summary">মোট %2$s এর %1$s অ্যাপ চালু</string>
+
     <string name="switch_on_text">চালুকরুন</string>
     <string name="switch_off_text">বন্ধকরুন</string>
-    <string name="category_menu">ক্যাটাগরি অনুযায়ী</string>
+
     <string name="turn_all_on_menu">সব চালু করুন</string>
     <string name="turn_all_off_menu">সব বন্ধ করুন</string>
-    <string name="app_list_menu">অ্যাপ তালিকা অনুযায়ী</string>
-    <string name="comm_category">যোগাযোগ</string>
-    <string name="entertain_category">বিনোদন</string>
-    <string name="life_category">লাইফস্টাইল</string>
-    <string name="tools_category">টুলস</string>
-    <string name="game_category">খেলা</string>
-    <string name="read_category">পড়ছে</string>
-    <string name="other_category">অন্যান্য</string>
-    <string name="dlg_title">সমর্থন নেই</string>
-    <string name="dlg_message">ডিভাইসে কোনো রানিং বুস্টার সাপোর্ট নেই।</string>
-    <string name="dlg_btn_uninstall">আনইনস্টলকরুন</string>
-    <string name="tile_summary_on">চালুকরুন</string>
-    <string name="tile_summary_off">বন্ধকরুন</string>
-    <string name="tile_summary_disable">নিষ্ক্রিয়করুন</string>
-    <string name="notification_title">DuraSpeed চালু</string>
-    <string name="notification_content">সক্রিয় অ্যাপ স্পিড আপ করতে, অন্য কিছু নোটিফিকেশন স্থগিত হতে পারে বা নাও পাওয়া যেতে পারে। যেসব অ্যাপের নোটিফিকেশন সবসময় পাওয়া প্রয়োজন সেগুলোকে সাদা তালিকায় যোগ করুন। </string>
-    <string name="notification_btn">এটি নিন এবং আবার কখনো স্মরণ করাবেন না</string>
-    <string name="about_it">সম্পর্কে</string>
-    <string name="report_sharing_title">ত্রুটি রিপোর্ট শেয়ার করা</string>
-    <string name="report_sharing_summary">পণ্য উন্নয়নে আমাদেরকে সাহায্য করুন</string>
-    <string name="version_title">সংস্করণ</string>
-    <string name="dlg_disclaimer_title">দাবিত্যাগের বিবৃতি</string>
-    <string name="dlg_disclaimer_msg">অ্যাপ স্টোর থেকে অ্যাপ ক্যাটাগরি ডাটাবেইজ আপডেট করতে ডুরাস্পিড ইন্টারনেটের সাথে সংযুক্ত হবে। ওয়াই-ফাই ছাড়া হলে কিছু বাড়তি ডাটা খরচ হতে পারে</string>
-    <string name="dlg_report_off_msg">বন্ধ করলে তা ডিভাইস রিস্ট্যার্ট করার পর কার্যকর হবে।</string>
-    <string name="dlg_notify_cancel">বাতিলকরুন</string>
-    <string name="dlg_notify_ok">ঠিক আছে</string>
 </resources>

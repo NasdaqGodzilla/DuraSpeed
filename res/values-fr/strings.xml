@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DuraSpeed</string>
-    <string name="empty_desc">"DuraSpeed permet d'accélérer l'application au premier plan en limitant les applications en arrière-plan ; certaines notifications peuvent être différées ou ne pas être reçues. \n\n DuraSpeed ne limite pas les activités en arrière-plan des applications activées dans la liste."</string>
-    <string name="fun_desc">Activez-le pour autoriser les applications fonctionnant en arrière-plan</string>
-    <string name="fun_desc_category">Applications autorisées à fonctionner en arrière-plan</string>
-    <string name="category_summary">%1$s applications sur un total de %2$s sur</string>
-    <string name="switch_on_text">"ACTIVÉ"</string>
-    <string name="switch_off_text">"Désactivé"</string>
-    <string name="category_menu">Par catégorie</string>
+    <string name="empty_desc">"DuraSpeed permet d'accélérer l'application au premier plan en limitant les applications en arrière-plan, certaines notifications peuvent être différées ou ne pas être reçues.\n\nDuraSpeed ne limite pas les activités en arrière-plan des applications activées dans la liste."</string>
+    <string name="fun_desc">Activez-le pour autoriser les applications fonctionnant en arrière-plan.</string>
+
+    <string name="switch_on_text">ACTIVÉ</string>
+    <string name="switch_off_text">Désactivé</string>
+
     <string name="turn_all_on_menu">Tout activer</string>
     <string name="turn_all_off_menu">Tout désactiver</string>
-    <string name="app_list_menu">Liste par application</string>
-    <string name="comm_category">Communications</string>
-    <string name="entertain_category">Divertissement</string>
-    <string name="life_category">Style de vie</string>
-    <string name="tools_category">Outil</string>
-    <string name="game_category">Jeu</string>
-    <string name="read_category">Lecture</string>
-    <string name="other_category">Autre</string>
-    <string name="dlg_title">Aucune prise en charge</string>
-    <string name="dlg_message">"Aucune prise en charge de Dispositif de dynamisation du fonctionnement dans l'appareil."</string>
-    <string name="dlg_btn_uninstall">"Désinstaller"</string>
-    <string name="tile_summary_on">"ACTIVÉ"</string>
-    <string name="tile_summary_off">"Désactivé"</string>
-    <string name="tile_summary_disable">"Désactiver"</string>
-    <string name="notification_title">DuraSpeed est activé</string>
-    <string name="notification_content">"Pour accélérer l'application active, certaines autres notifications peuvent être reportées ou ne pas être reçues. Ajoutez les applications dont les notifications doivent être reçues en permanence à la liste blanche."</string>
-    <string name="notification_btn">Compris et ne plus le rappeler</string>
-    <string name="about_it">"À propos de"</string>
-    <string name="report_sharing_title">"Partage de rapport d'erreur"</string>
-    <string name="report_sharing_summary">Aidez-nous à améliorer le produit</string>
-    <string name="version_title">"Version"</string>
-    <string name="dlg_disclaimer_title">Avis de non responsabilité</string>
-    <string name="dlg_disclaimer_msg">"Pour mettre à jour la base de données des catégories d'applications depuis l'App Store, DuraSpeed va se connecter à Internet. Cela peut générer un trafic de données supplémentaire sans Wi-Fi."</string>
-    <string name="dlg_report_off_msg">"La mise hors service prendra effet après avoir redémarré l'appareil. "</string>
-    <string name="dlg_notify_cancel">ANNULER</string>
-    <string name="dlg_notify_ok">"OK"</string>
 </resources>
