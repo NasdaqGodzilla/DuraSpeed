@@ -21,6 +21,7 @@
         android:theme="@style/Theme.RBSettings"
         android:allowClearUserData="false">
 
+        <uses-library android:name="duraspeed" />
         <activity
             android:name=".view.DuraSpeedMainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|navigation"
