@@ -257,15 +257,17 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
 
     @Override
     public void onRestoreInstanceState(Parcelable state) {
-        DSSavedState savedState = (DSSavedState) state;
-        super.onRestoreInstanceState(savedState.getSuperState());
+        if (state instanceof DSSavedState) {
+            DSSavedState savedState = (DSSavedState) state;
+            super.onRestoreInstanceState(savedState.getSuperState());
 
-        mSwitch.setCheckedInternal(savedState.checked);
-        setTextViewLabel(savedState.checked);
-        setVisibility(savedState.visible ? View.VISIBLE : View.GONE);
-        mSwitch.setOnCheckedChangeListener(savedState.visible ? this : null);
+            mSwitch.setCheckedInternal(savedState.checked);
+            setTextViewLabel(savedState.checked);
+            setVisibility(savedState.visible ? View.VISIBLE : View.GONE);
+            mSwitch.setOnCheckedChangeListener(savedState.visible ? this : null);
 
-        requestLayout();
+            requestLayout();
+        }
     }
 
     @Override
