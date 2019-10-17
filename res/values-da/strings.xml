@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Slå alle til</string>
     <string name="turn_all_off_menu">Slå alle fra</string>
+    <string name="duraspeed_ai_title">AI-Accelerér app-start</string>
+    <string name="duraspeed_ai_summary">"Forudse hvilken app du kommer til at bruge og forbered ressourcerne på forhånd i baggrunden. På denne måde startes app'en meget hurtigere."</string>
 </resources>

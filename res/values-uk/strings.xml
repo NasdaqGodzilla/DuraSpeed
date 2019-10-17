@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Увімкнути все</string>
     <string name="turn_all_off_menu">Вимкнути все</string>
+    <string name="duraspeed_ai_title">Al - прискорений запуск програми</string>
+    <string name="duraspeed_ai_summary">Передбачає, яку програму ви застосуєте, і завчасно підготує ресурси фону. Значно прискорить запуск програм.</string>
 </resources>

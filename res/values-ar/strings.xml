@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">تشغيل الكل</string>
     <string name="turn_all_off_menu">إيقاف الكل</string>
+    <string name="duraspeed_ai_title">تسريع عملية  بدء تشغيل التطبيق بالذكاء الصناعي</string>
+    <string name="duraspeed_ai_summary">توقع التطبيق الذي ستستخدمه وجهز الموارد في الخلفية مسبقًا. سرع عملية  بدء تشغيل التطبيق بشكل كبير.</string>
 </resources>

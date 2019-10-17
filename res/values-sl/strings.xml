@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Vklop vseh</string>
     <string name="turn_all_off_menu">Izklop vseh</string>
+    <string name="duraspeed_ai_title">AI-Pospešite zagon aplikacij</string>
+    <string name="duraspeed_ai_summary">Previdite, katero aplikacijo boste uporabili, in vnaprej pripravite sredstva v ozadju. S tem znatno pospešite zagon aplikacij.</string>
 </resources>

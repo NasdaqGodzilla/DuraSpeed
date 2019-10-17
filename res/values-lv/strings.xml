@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Ieslēgt visu</string>
     <string name="turn_all_off_menu">Izslēgt visu</string>
+    <string name="duraspeed_ai_title">AI-Ubrzaj pokretanje aplikacije</string>
+    <string name="duraspeed_ai_summary">Paredziet, kuru lietotni izmantosiet un iepriekš fonā sagatavojiet resursus. Ievērojami paātriniet lietotnes palaišanu.</string>
 </resources>

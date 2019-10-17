@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Włącz wszystkie</string>
     <string name="turn_all_off_menu">Wyłącz wszystkie</string>
+    <string name="duraspeed_ai_title">Al-Przyspieszanie uruchamiania aplikacji</string>
+    <string name="duraspeed_ai_summary">Przewidywanie używanej aplikacji i wcześniejsze przygotowanie zasobów w tle. Znaczne przyspieszenie uruchamiania aplikacji.</string>
 </resources>

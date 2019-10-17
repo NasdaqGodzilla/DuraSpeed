@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Барлығын қосу</string>
     <string name="turn_all_off_menu">Барлығын өшіру</string>
+    <string name="duraspeed_ai_title">AI-Қолданба іске қосылуын үдеу</string>
+    <string name="duraspeed_ai_summary">Фондық режимде қай қолданбаның қолданылатынын және ресурстарды алдын ала дайындауға болады. Бағдарламаны іске қосуды тездетіңіз.</string>
 </resources>

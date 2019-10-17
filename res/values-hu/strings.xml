@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Összes bekapcsolása</string>
     <string name="turn_all_off_menu">Összes kikapcsolása</string>
+    <string name="duraspeed_ai_title">AI-gyorsabbá teszi az alkalmazások elindítását</string>
+    <string name="duraspeed_ai_summary">Előrejelzi, hogy Ön melyik alkalmazást fogja használni, és a háttérben előkészíti az erőforrásokat. Nagy mértékben felgyorsítja az alkalmazások elindítását.</string>
 </resources>

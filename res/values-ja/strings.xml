@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">すべてをオン</string>
     <string name="turn_all_off_menu">すべてをオフ</string>
+    <string name="duraspeed_ai_title">AI-アプリの起動を加速する</string>
+    <string name="duraspeed_ai_summary">あなたが使用するアプリを予測し、バックグラウンドで事前にリソースを準備します。アプリの起動を大幅に加速します。</string>
 </resources>

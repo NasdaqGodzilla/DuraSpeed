@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Alles einschalten</string>
     <string name="turn_all_off_menu">Alles ausschalten</string>
+    <string name="duraspeed_ai_title">KI-beschleunigter Appstart</string>
+    <string name="duraspeed_ai_summary">Ahnt voraus, welche App Sie bald verwenden werden, bereitet die nötigen Ressourcen schon im Hintergrund vor. Beschleunigt den Start Ihrer App deutlich.</string>
 </resources>

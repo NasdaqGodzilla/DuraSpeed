@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">모두 켜기</string>
     <string name="turn_all_off_menu">모두 끄기</string>
+    <string name="duraspeed_ai_title">Al - 앱 시작 가속</string>
+    <string name="duraspeed_ai_summary">사용자가 어떤 앱을 사용할지 예측하여 백그라운드에서 리소스를 미리 준비합니다. 따라서 앱 시작 속도를 대폭 높여줍니다.</string>
 </resources>

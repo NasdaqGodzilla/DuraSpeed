@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Bật tất cả</string>
     <string name="turn_all_off_menu">Tắt tất cả</string>
+    <string name="duraspeed_ai_title">AI - Tăng tốc khởi động ứng dụng</string>
+    <string name="duraspeed_ai_summary">Dự đoán ứng dụng nào bạn sẽ sử dụng và chuẩn bị sẵn tài nguyên trên nền. Tăng tốc đáng kể việc khởi động ứng dụng của bạn.</string>
 </resources>

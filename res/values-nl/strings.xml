@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Alle inschakelen</string>
     <string name="turn_all_off_menu">Alle uitschakelen</string>
+    <string name="duraspeed_ai_title">AI-versnel starten app</string>
+    <string name="duraspeed_ai_summary">Voorspelt welke app u wilt gebruiken en bereidt vooraf resources voor op de achtergrond. Versnelt het starten van de app aanzienlijk.</string>
 </resources>

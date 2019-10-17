@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">เปิดทั้งหมด</string>
     <string name="turn_all_off_menu">ปิดทั้งหมด</string>
+    <string name="duraspeed_ai_title">เรียกใช้แอปเร่งความเร็ว AI</string>
+    <string name="duraspeed_ai_summary">พยากรณ์ว่าคุณจะใช้แอปใด และเตรียมทรัพยากรณ์ล่วงหน้าเบื้องหลัง เร่งความเร็วในการเปิดแอปของคุณขึ้นอย่างมาก</string>
 </resources>

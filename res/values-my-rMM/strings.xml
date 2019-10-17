@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">အားလုံးကို ဖွင့်ပါ</string>
     <string name="turn_all_off_menu">အားလုံးကို ပိတ်ပါ</string>
+    <string name="duraspeed_ai_title">AI- သံုး အရွိန္ျမႇင့္အက္ပ္ စတင္ျခင္း</string>
+    <string name="duraspeed_ai_summary">မည္သည့္ အက္ပ္ကို အသံုးျပဳ၍ ေနာက္ခံတြင္ အရင္းအျမစ္မ်ား ျပင္ဆင္ေပးမည္ကို ႀကိဳတင္ခန္႔မွန္းေပးသည္။ သင့္အက္ပ္စတင္မႈကို အလြန္လ်င္ျမန္ေစသည္။</string>
 </resources>

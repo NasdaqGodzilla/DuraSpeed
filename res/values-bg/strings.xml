@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Включване на всички</string>
     <string name="turn_all_off_menu">Изключване на всички</string>
+    <string name="duraspeed_ai_title">AI-ускоряване на стартирането на приложенията</string>
+    <string name="duraspeed_ai_summary">Предсказва кое приложение ще използвате  и подготвя ресурси във фона предварително. Стартирайте приложението си много по-бързо.</string>
 </resources>

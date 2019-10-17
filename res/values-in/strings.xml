@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Aktifkan semua</string>
     <string name="turn_all_off_menu">Nonaktifkan semua</string>
+    <string name="duraspeed_ai_title">AI-Mempercepat pengaktifan aplikasi</string>
+    <string name="duraspeed_ai_summary">Mengetahui aplikasi yang akan Anda gunakan dan menyiapkan sumber dayanya terlebih dulu di latar belakang. Mempercepat pengaktifan aplikasi Anda secara luar biasa.</string>
 </resources>

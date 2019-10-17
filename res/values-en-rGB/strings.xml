@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Turn all on</string>
     <string name="turn_all_off_menu">Turn all off</string>
+    <string name="duraspeed_ai_title">AI-Accelerate app launch</string>
+    <string name="duraspeed_ai_summary">Predicts which app you will use and prepares background resources in advance to greatly accelerate app launch speed.</string>
 </resources>

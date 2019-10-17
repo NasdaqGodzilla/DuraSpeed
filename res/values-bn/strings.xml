@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">সব চালু করুন</string>
     <string name="turn_all_off_menu">সব বন্ধ করুন</string>
+    <string name="duraspeed_ai_title">এআই-তরান্বিত অ্যাপ চালু করা</string>
+    <string name="duraspeed_ai_summary">আপনি কোন অ্যাপ ব্যবহার করবেন তা অনুমান করে এবং ব্যাকগ্রাউন্ডে আগেভাগে রিসোর্স প্রস্তুত করে। আপনার অ্যাপ চালু হওয়াকে অনেকখানি তরান্বিত করে।</string>
 </resources>

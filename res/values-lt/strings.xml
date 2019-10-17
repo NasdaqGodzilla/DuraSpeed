@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Įjungti viską</string>
     <string name="turn_all_off_menu">Išjungti viską</string>
+    <string name="duraspeed_ai_title">AI-Spartusis programėlių paleidimas</string>
+    <string name="duraspeed_ai_summary">Numatykite, kurią programėlę naudosite, ir iš anksto fone paruoškite išteklius. Ženkliai padidinkite savo programėlės paleidimo spartą.</string>
 </resources>

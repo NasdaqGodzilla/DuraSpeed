@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Activaţi-le pe toate</string>
     <string name="turn_all_off_menu">Dezactivaţi-le pe toate</string>
+    <string name="duraspeed_ai_title">AI-Accelerare lansare aplicații</string>
+    <string name="duraspeed_ai_summary">Se prezice aplicația pe care o veți folosi și se pregătesc resursele în avans, în fundal. Astfel, lansarea aplicațiilor este accelerată considerabil.</string>
 </resources>

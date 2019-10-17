@@ -56,9 +56,11 @@ public class DuraSpeedAppReceiver extends BroadcastReceiver {
     }
 
     class DSThread extends Thread {
+        private Context mContext;
         private Intent mIntent;
 
         public DSThread(Context context, Intent intent) {
+            mContext = context;
             mIntent = intent;
         }
 
@@ -68,6 +70,9 @@ public class DuraSpeedAppReceiver extends BroadcastReceiver {
             if (ACTION_START_DURASPEED_APP.equals(action) ||
                     Intent.ACTION_BOOT_COMPLETED.equals(action)) {
                 Utils.setAppWhitelist(Utils.sDatabaseManager.getAppWhitelist());
+                if (Utils.getDuraSpeedStatus(mContext) && Utils.getDuraSpeedMLStatus(mContext)) {
+                    Utils.startDuraSpeedMLService(mContext);
+                }
             } else {
                 Log.e(TAG, "Unknown extra intent action = " + action);
             }

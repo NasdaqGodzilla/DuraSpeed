@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">បើកទាំងអស់</string>
     <string name="turn_all_off_menu">បិទទាំងអស់</string>
+    <string name="duraspeed_ai_title">បើកកម្មវិធីជំរុញល្បឿន (AI)</string>
+    <string name="duraspeed_ai_summary">ទស្សទាយ ពីកម្មវិធី ដែលលោកអ្នកនឹងប្រើប្រាស់ ហើយ រៀបចំធនធាន ទុកជាមុន នៅផ្នែកខាងក្រោយ ។ ជំរុញល្បឿន បើកដំណើរការកម្មវិធី របស់លោកអ្នក បានដ៏អស្ចារ្យ  ។</string>
 </resources>

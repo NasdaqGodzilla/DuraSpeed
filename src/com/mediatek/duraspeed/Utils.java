@@ -37,6 +37,8 @@
 package com.mediatek.duraspeed;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -44,6 +46,7 @@ import android.content.pm.ResolveInfo;
 import android.graphics.drawable.Drawable;
 import android.os.ServiceManager;
 import android.os.SystemProperties;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.util.Log;
 
@@ -59,6 +62,14 @@ public final class Utils {
     public static final boolean sLowRamDevice =
             SystemProperties.getBoolean("ro.config.low_ram", false);
     public static boolean sStarted = false;
+
+    public static final boolean DURASPEED_ML_SUPPORT =
+            SystemProperties.getInt("persist.vendor.duraspeed.ml.support", 0) == 1;
+    public static final String DURASPEED_ML_PREFERENCE_KEY = "key_duraspeed_ml";
+    private static final String SHARED_PREFERENCE_DS = "DSSharedPreference";
+    private static final String DURASPEED_ML_PACKAGE = "com.mediatek.duraspeedml";
+    private static final String DURASPEED_ML_SERVICE_START_ACTION =
+            "com.mediatek.duraspeedml.prediction_action_alarm";
 
     private static PackageManager sPackageManager;
     private static IDuraSpeedService sDuraSpeedManager;
@@ -152,5 +163,63 @@ public final class Utils {
         if (sDatabaseManager == null ) {
             sDatabaseManager = DatabaseManager.getInstance(context);
         }
+    }
+
+    /**
+     * Set DuraSpeedML status.
+     *
+     * @param context Application context.
+     * @param status True means DuraSpeedML is on, otherwise is off.
+     */
+    public static void setDuraSpeedMLStatus(Context context, boolean status) {
+        SharedPreferences sharedPref = context.getSharedPreferences(
+                SHARED_PREFERENCE_DS, Context.MODE_PRIVATE);
+        sharedPref.edit().putBoolean(DURASPEED_ML_PREFERENCE_KEY, status).apply();
+    }
+
+    /**
+     * Get DuraSpeedML status.
+     *
+     * @param context Application context.
+     * @return True means DuraSpeedML is on, otherwise is off.
+     */
+    public static boolean getDuraSpeedMLStatus(Context context) {
+        try {
+            SharedPreferences sharedPref = context.getSharedPreferences(
+                    SHARED_PREFERENCE_DS, Context.MODE_PRIVATE);
+            return sharedPref.getBoolean(DURASPEED_ML_PREFERENCE_KEY, false);
+        } catch (IllegalStateException e) {
+            // In some case like: create a new user and delete it a little later in
+            // multi user. Whe create a new user, DuraSpeed will receive the boot
+            // broadcast and query DuraSpeedML status in shared preferences, during
+            // this time, user deletes the this user, users state will be changed to
+            // STOPPED, which maybe throw exception from getSharedPreferences in
+            // ContexImpl class.
+            return false;
+        }
+    }
+
+    /**
+     * Start DuraSpeedML service.
+     *
+     * @param context Application context.
+     */
+    public static void startDuraSpeedMLService(Context context) {
+        Intent intent = new Intent();
+        intent.setPackage(DURASPEED_ML_PACKAGE);
+        intent.setAction(DURASPEED_ML_SERVICE_START_ACTION);
+        context.startServiceAsUser(intent, UserHandle.CURRENT);
+    }
+
+    /**
+     * Stop DuraSpeedML service.
+     *
+     * @param context Application context.
+     */
+    public static void stopDuraSpeedMLService(Context context) {
+        Intent intent = new Intent();
+        intent.setPackage(DURASPEED_ML_PACKAGE);
+        intent.setAction(DURASPEED_ML_SERVICE_START_ACTION);
+        context.stopServiceAsUser(intent, UserHandle.CURRENT);
     }
 }

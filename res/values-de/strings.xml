@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Alles einschalten</string>
     <string name="turn_all_off_menu">Alles ausschalten</string>
+    <string name="duraspeed_ai_title">AI - App-Start beschleunigen</string>
+    <string name="duraspeed_ai_summary">Sagt vorher, welche App Sie benutzen, und bereitet vorab im Hintergrund Ressourcen vor. Beschleunigt deutlich den Start Ihrer App.</string>
 </resources>

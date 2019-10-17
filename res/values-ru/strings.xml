@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Включить все</string>
     <string name="turn_all_off_menu">Выключить все</string>
+    <string name="duraspeed_ai_title">ИИ — ускоренный запуск приложений</string>
+    <string name="duraspeed_ai_summary">Система прогнозирует, каким приложением вы воспользуетесь, и заранее в фоновом режиме выделяет ресурсы. Это существенно ускоряет запуск приложений.</string>
 </resources>

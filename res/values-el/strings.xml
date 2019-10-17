@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Ενεργοποίηση όλων</string>
     <string name="turn_all_off_menu">Απενεργοποίηση όλων</string>
+    <string name="duraspeed_ai_title">AI-Επιτάχυνση εκκίνησης εφαρμογών</string>
+    <string name="duraspeed_ai_summary">Προβλέψτε ποια εφαρμογή θα χρησιμοποιήσετε και προετοιμάστε τους αντίστοιχους πόρους στο παρασκήνιο. Επιταχύνετε την εκκίνηση των εφαρμογών σας.</string>
 </resources>

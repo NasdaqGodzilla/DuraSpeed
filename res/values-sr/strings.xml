@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Укључи све</string>
     <string name="turn_all_off_menu">Искључи све</string>
+    <string name="duraspeed_ai_title">Al - Ubrzati pokretanje aplikacije</string>
+    <string name="duraspeed_ai_summary">Predvidite koju aplikaciju ćete koristiti i unapred pripremite resurse u pozadini. Značajno ubrzajte pokretanje aplikacije.</string>
 </resources>

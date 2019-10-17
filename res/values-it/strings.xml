@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Attiva tutto</string>
     <string name="turn_all_off_menu">Disattiva tutto</string>
+    <string name="duraspeed_ai_title">AI - Avvio accelerato app</string>
+    <string name="duraspeed_ai_summary">Predice quale app sarà utilizzata e prepara in anticipo le risorse in background. Accelera l’avvio dell’app in modo considerevole.</string>
 </resources>

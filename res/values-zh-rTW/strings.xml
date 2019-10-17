@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">全部開啟</string>
     <string name="turn_all_off_menu">全部關閉</string>
+    <string name="duraspeed_ai_title">AI─加快app的啟動速度</string>
+    <string name="duraspeed_ai_summary">預測您將使用的app，幕後先將資源備便，大幅提高app啟動的速度。</string>
 </resources>

@@ -102,7 +102,7 @@ public class DuraSpeedFragment extends PreferenceFragment {
     public void showScreen(boolean checked) {
         mAllCurrentShowedApp = Utils.sDatabaseManager.getAppRecords();
         if (!checked) {
-            // Duraspeed off.
+            // DuraSpeed off.
             showCommon(getResources().getString(R.string.empty_desc), checked);
         } else if (mAllCurrentShowedApp == null || mAllCurrentShowedApp.size() == 0) {
             // DuraSpeed on, and app list is null.
@@ -117,9 +117,21 @@ public class DuraSpeedFragment extends PreferenceFragment {
         Utils.setAppWhitelist(Utils.sDatabaseManager.getAppWhitelist());
 
         mPreferenceScreen.removeAll();
-        // Duraspeed switcher.
+        // DuraSpeed switcher.
         DuraSpeedSwitchPreference perf = new DuraSpeedSwitchPreference(mActivity);
         mPreferenceScreen.addPreference(perf);
+
+        if (Utils.DURASPEED_ML_SUPPORT) {
+            MLPreference MLPref = new MLPreference(mActivity);
+            if (status) {
+                mPreferenceScreen.addPreference(MLPref);
+                if (Utils.getDuraSpeedMLStatus(mActivity)) {
+                    Utils.startDuraSpeedMLService(mActivity);
+                }
+            } else {
+                Utils.stopDuraSpeedMLService(mActivity);
+            }
+        }
 
         // Desc.
         DescPreference descPerf = new DescPreference(mActivity, desc);
@@ -222,6 +234,51 @@ public class DuraSpeedFragment extends PreferenceFragment {
                         Utils.getAppLabel(mActivity, pkg2.getPkgName()));
             } else {
                 return pkg1.getStatus() == AppRecord.STATUS_ENABLED ? -1 : 1;
+            }
+        }
+    }
+
+    final class MLPreference extends Preference implements View.OnClickListener {
+        private Context mContext;
+        private Switch mSwitch;
+
+        public MLPreference(Context context) {
+            super(context);
+            mContext = context;
+            setLayoutResource(R.layout.common_preference);
+        }
+
+        @Override
+        protected View onCreateView(ViewGroup parent) {
+            View view = super.onCreateView(parent);
+
+            setKey(Utils.DURASPEED_ML_PREFERENCE_KEY);
+            mSwitch = (Switch) view.findViewById(R.id.status);
+            setTitle(R.string.duraspeed_ai_title);
+            setSummary(R.string.duraspeed_ai_summary);
+
+            boolean checked = Utils.getDuraSpeedMLStatus(mContext);
+            mSwitch.setChecked(checked);
+
+            view.setOnClickListener(this);
+            return view;
+        }
+
+        @Override
+        public void onClick(View v) {
+            boolean checked = !mSwitch.isChecked();
+            Log.d("MLPreference", "onClick, checked: " + checked);
+
+            mSwitch.setChecked(checked);
+            updateStatus(checked);
+        }
+
+        public void updateStatus(boolean status) {
+            Utils.setDuraSpeedMLStatus(mContext, status);
+            if (status) {
+                Utils.startDuraSpeedMLService(mContext);
+            } else {
+                Utils.stopDuraSpeedMLService(mContext);
             }
         }
     }

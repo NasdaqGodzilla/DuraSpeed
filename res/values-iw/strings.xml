@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">הפעל הכול</string>
     <string name="turn_all_off_menu">כבה הכול</string>
+    <string name="duraspeed_ai_title">AI - הפעלה מואצת של אפליקציות</string>
+    <string name="duraspeed_ai_summary">חזה באיזו אפליקציה תשתמש והכן את המשאבים מראש ברקע. האץ באופן משמעותי את תהליך ההפעלה של אפליקציות.</string>
 </resources>

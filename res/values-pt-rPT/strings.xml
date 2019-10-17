@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Ativar tudo</string>
     <string name="turn_all_off_menu">Desativar tudo</string>
+    <string name="duraspeed_ai_title">AI-Acelerar início de aplicações</string>
+    <string name="duraspeed_ai_summary">Prever a aplicação que irá utilizar e preparar recursos antecipadamente em segundo plano. Acelera significativamente o início das suas aplicações.</string>
 </resources>

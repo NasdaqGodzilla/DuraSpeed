@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Activa-les totes</string>
     <string name="turn_all_off_menu">Desactiva-les totes</string>
+    <string name="duraspeed_ai_title">"AI-execució de l'aplicació Accelerate"</string>
+    <string name="duraspeed_ai_summary">"Prediu quina aplicació utilitzaràs i prepara recursos per endavant en segon pla. Accelera enormement l'execució d'aplicacions."</string>
 </resources>

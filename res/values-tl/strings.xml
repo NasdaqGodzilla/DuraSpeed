@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">I-on lahat</string>
     <string name="turn_all_off_menu">I-off lahat</string>
+    <string name="duraspeed_ai_title">AI-Pabilisin ang pagbukas ng app</string>
+    <string name="duraspeed_ai_summary">Hulaan kung aling app ang gagamitin mo at maagang ihanda ang mga resource sa background. Pabilisin nang husto ang pagbukas ng app.</string>
 </resources>

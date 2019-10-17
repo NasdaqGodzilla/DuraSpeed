@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Zapnúť všetko</string>
     <string name="turn_all_off_menu">Vypnúť všetko</string>
+    <string name="duraspeed_ai_title">Al - Urýchlenie spustenia aplikácie</string>
+    <string name="duraspeed_ai_summary">Predvída, ktorú aplikáciu použijete, a na pozadí vopred pripraví zdroje. Veľmi zrýchlite spustenie svojej aplikácie.</string>
 </resources>

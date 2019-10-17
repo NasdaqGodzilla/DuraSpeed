@@ -9,4 +9,6 @@
 
     <string name="turn_all_on_menu">Միացնել բոլորը</string>
     <string name="turn_all_off_menu">Անջատել բոլորը</string>
+    <string name="duraspeed_ai_title">AI-Արագացրեք հավելվածի գործարկումը</string>
+    <string name="duraspeed_ai_summary">Կանխատեսեք, թե ինչ հավելված եք օգտագործելու և հետնաշերտում նախապես պատրաստեք ռեսուրսները: Զգալիորեն արագացրեք ձեր հավելվածի գործարկումը:</string>
 </resources>
