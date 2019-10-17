@@ -5,7 +5,7 @@
     android:orientation="vertical" >
 
 
-        <com.mediatek.duraspeed.SwitchBar
+        <com.mediatek.duraspeed.view.SwitchBar
             android:id="@+id/switch_bar"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
@@ -15,15 +15,6 @@
         <FrameLayout
             android:id="@+id/main_content"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/comment"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"/>
-        </FrameLayout>
+            android:layout_height="match_parent" />
 
 </LinearLayout>

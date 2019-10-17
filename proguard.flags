@@ -15,8 +15,8 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
--keep class com.mediatek.duraspeed.DSSummaryProvider{*;}
--keep class com.mediatek.duraspeed.SwitchBar$*{
+-keep class com.mediatek.duraspeed.view.RbSummaryProvider{*;}
+-keep class com.mediatek.duraspeed.view.SwitchBar$*{
     public <fields>;
     public <methods>;
 }

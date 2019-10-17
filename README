@@ -14,6 +14,7 @@ The APP only apply to the device which pre-installed DuraSpeed in the Settings.
 HOW TO USE IT?
 ==============
 1) enter Settings --- > DuraSpeed
-2) if enable it , allow the app to run in the background.
+2) set apps list into whitelist.
+3) if enable it , allow the app to run in the background.
 
 All the source code of this module were written by MediaTek co..

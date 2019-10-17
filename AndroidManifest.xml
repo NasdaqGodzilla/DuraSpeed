@@ -19,17 +19,17 @@
         android:label="@string/app_name"
         android:requiredForAllUsers="true"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DSSettings"
+        android:theme="@style/Theme.RBSettings"
         android:allowClearUserData="false">
 
         <activity
-            android:name=".DuraSpeedMainActivity"
+            android:name=".view.DuraSpeedMainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|navigation"
             android:label="@string/app_name"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="com.mediatek.runningboosterapp_ENTRANCE" />
+                <action android:name="com.mediatek.duraspeed.APP_ENTRANCE" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.INFO" />
             </intent-filter>
@@ -45,9 +45,34 @@
                 android:resource="@drawable/ic_settings_rb" />
             <meta-data
                 android:name="com.mediatek.settings.summary"
-                android:value="com.mediatek.duraspeed.DSSummaryProvider" />
+                android:value="com.mediatek.duraspeed.view.DSSummaryProvider" />
         </activity>
 
+        <receiver android:name=".view.DuraSpeedAppReceiver">
+            <intent-filter>
+                <action android:name="mediatek.intent.action.ACTION_START_DURASPEED_APP" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".view.DuraSpeedAppService" />
+        <service
+            android:name=".view.QueryCategoryJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".view.RemoteService"
+            android:enabled="true" />
+
+        <receiver
+            android:name=".view.ViewUtils$NotRemindReceiver"
+            android:exported="false" />
     </application>
 
 </manifest>

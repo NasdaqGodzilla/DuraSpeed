@@ -30,7 +30,7 @@
     </style>
 
     <style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings" />
-    <style name="Theme.DSSettings" parent="Theme.SettingsBase">
+    <style name="Theme.RBSettings" parent="Theme.SettingsBase">
          <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar.Settings</item>
   </style>              
 </resources>

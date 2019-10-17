@@ -34,82 +34,103 @@
  * Software") have been modified by MediaTek Inc. All revisions are subject to
  * any receiver's applicable license agreements with MediaTek Inc.
  */
-package com.mediatek.duraspeed;
+package com.mediatek.duraspeed.view;
 
 import android.app.Activity;
 import android.app.ActivityManager;
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.SharedPreferences;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
-import android.os.SystemProperties;
-import android.provider.Settings;
 import android.util.Log;
-import android.widget.Switch;
-import android.widget.TextView;
 
-import com.mediatek.duraspeed.SwitchBar.OnSwitchChangeListener;
+import com.mediatek.duraspeed.R;
 
-/**
- * Main activity of Dura Speed App in system setting.
- *
- */
 public class DuraSpeedMainActivity extends Activity {
     private static final String TAG = "DuraSpeedMainActivity";
-
-    private static final String SETTING_DURASPEED_ENABLED = "setting.duraspeed.enabled";
-    private static final String SHARED_PREFERENCE_RB = "RBSharedPreference";
-    private static final String SHARED_PREFERENCE_KEY_STATUS = "status";
-    private static final int DURASPEED_DEFAULT_VALUE =
-            SystemProperties.getInt("persist.vendor.duraspeed.app.on", 0);
-
     private int mMainContentId = R.id.main_content;
     private SwitchBar mSwitchBar;
-    private TextView mCommentView;
+    private PackageReceiver mPackageReceiver = new PackageReceiver();
+    private boolean mRegistered = false;
+
     @Override
     protected void onCreate(Bundle savedState) {
-        Log.d(TAG, "[onCreate]");
         super.onCreate(savedState);
-        // If start by monkey, finish it.
+        // If start by monkey, finish it
         if (isMonkeyRunning()) {
-           finish();
+            finish();
         }
-
         // set up empty UI
-        setContentView(R.layout.main_layout);
+        setContentView(R.layout.whitelist);
         mSwitchBar = (SwitchBar) findViewById(R.id.switch_bar);
-        mCommentView = (TextView) findViewById(R.id.comment);
+        switchToFragment(WhiteListFragment.class.getName(), null, false);
+    }
 
-        SharedPreferences sharedPrf = getSharedPreferences(
-                SHARED_PREFERENCE_RB, Context.MODE_PRIVATE);
-        int value = sharedPrf.getInt(SHARED_PREFERENCE_KEY_STATUS, -1);
-        if (value == -1) {
-            value = Settings.System.getInt(getContentResolver(),
-                    SETTING_DURASPEED_ENABLED, DURASPEED_DEFAULT_VALUE);
+    @Override
+    protected void onStart() {
+        super.onStart();
+        final IntentFilter filter = new IntentFilter(DuraSpeedAppService.ACTION_PKG_UPDATE);
+        registerReceiver(mPackageReceiver, filter);
+        mRegistered = true;
+    }
+
+    @Override
+    protected void onStop() {
+        if (mRegistered) {
+            unregisterReceiver(mPackageReceiver);
+            mRegistered = false;
         }
-        Log.d(TAG, "[onCreate], value:" + value);
+        super.onStop();
+    }
 
-        boolean checked = (value == 1);
-        mSwitchBar.setChecked(checked);
-        mCommentView.setText(R.string.empty_desc);
+    /**
+     * switch To Fragment.
+     *
+     * @param fragmentName switch to fragment class name
+     * @param args         Bundle , can be null
+     * @param backStack    put it to back stack or not
+     * @return fragment will switch to
+     */
+    public Fragment switchToFragment(String fragmentName, Bundle args, boolean backStack) {
+        Log.d(TAG, "switchToFragment = " + fragmentName);
+        Fragment f = Fragment.instantiate(this, fragmentName, args);
+        FragmentTransaction transaction = getFragmentManager().beginTransaction();
+        transaction.replace(mMainContentId, f);
+        transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
+        if (backStack) {
+            transaction.addToBackStack("RunningBooster");
+        }
+        transaction.commitAllowingStateLoss();
+        return f;
+    }
 
-        mSwitchBar.addOnSwitchChangeListener(new OnSwitchChangeListener() {
+    public SwitchBar getSwitchBar() {
+        return mSwitchBar;
+    }
 
-            @Override
-            public void onSwitchChanged(Switch switchView, boolean isChecked) {
-                Log.d(TAG, "[onSwitchChanged] isChecked = " + isChecked);
-                if (isChecked) {
+    private class PackageReceiver extends BroadcastReceiver {
 
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (context instanceof Activity) {
+                Log.d(TAG, "package receiver: " + intent.toString());
+                FragmentManager manager = ((Activity) context).getFragmentManager();
+                Fragment frag = manager.findFragmentById(mMainContentId);
+                if (frag instanceof BaseFragment) {
+                    ((BaseFragment) frag).onPackageUpdated(intent);
                 } else {
-                    mCommentView.setText(R.string.empty_desc);
+                    Log.d(TAG, "not find base fragment: " + frag);
                 }
             }
-        });
+        }
     }
 
     /**
      * Returns true if Monkey is running.
-     *
-     * @return True when is in monkey running.
      */
     public boolean isMonkeyRunning() {
         return ActivityManager.isUserAMonkey();
