@@ -162,6 +162,12 @@ public final class Utils {
     public static void createDatabaseManager(Context context) {
         if (sDatabaseManager == null ) {
             sDatabaseManager = DatabaseManager.getInstance(context);
+        } else {
+            // some app may be installed when DuraSpeed app process is alive but
+            // main activity don't exist that will not receive PACKAGE_ADD
+            // broadcast. so we should call update database to update new added
+            // package icon when user enter DuraSpeed from setting.
+            sDatabaseManager.updateDatabase();
         }
     }
 

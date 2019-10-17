@@ -94,7 +94,10 @@ public class DatabaseManager {
         }
     }
 
-    private void updateDatabase() {
+    /**
+     * Update database for some app maybe installed.
+     */
+    public void updateDatabase() {
         // Get all the installed app list, exclude white list
         PackageManager pm = Utils.getPackageManager(mContext);
         int flags = PackageManager.GET_UNINSTALLED_PACKAGES |
