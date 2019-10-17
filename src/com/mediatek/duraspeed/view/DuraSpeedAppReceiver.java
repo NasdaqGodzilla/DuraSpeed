@@ -56,9 +56,6 @@ public class DuraSpeedAppReceiver extends BroadcastReceiver {
         if (intent != null) {
             new DSThread(context, intent).start();
         }
-        if (ViewUtils.sLowRamDevice && !ViewUtils.sStarted) {
-            Process.killProcessQuiet(Process.myPid());
-        }
     }
 
     class DSThread extends Thread {
@@ -84,6 +81,9 @@ public class DuraSpeedAppReceiver extends BroadcastReceiver {
                 mIPolicyPresenter.setAppWhitelist();
             } else {
                 Log.e(TAG, "Unknown extra intent action = " + action);
+            }
+            if (ViewUtils.sLowRamDevice && !ViewUtils.sStarted) {
+                Process.killProcessQuiet(Process.myPid());
             }
         }
     }

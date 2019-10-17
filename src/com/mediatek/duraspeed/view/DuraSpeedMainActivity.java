@@ -46,6 +46,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.os.Process;
 import android.util.Log;
 
 import com.mediatek.duraspeed.R;
@@ -75,6 +76,7 @@ public class DuraSpeedMainActivity extends Activity {
         setContentView(R.layout.whitelist);
         mSwitchBar = (SwitchBar) findViewById(R.id.switch_bar);
         switchToFragment(WhiteListFragment.class.getName(), null, false);
+        ViewUtils.sStarted = true;
     }
 
     @Override
@@ -89,7 +91,6 @@ public class DuraSpeedMainActivity extends Activity {
         filter2.addDataScheme("package");
         registerReceiver(mPackageReceiver, filter2);
         mRegistered = true;
-        ViewUtils.sStarted = true;
     }
 
     @Override
@@ -99,7 +100,15 @@ public class DuraSpeedMainActivity extends Activity {
             mRegistered = false;
         }
         super.onStop();
-        ViewUtils.sStarted = false;
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (ViewUtils.sLowRamDevice && ViewUtils.sStarted) {
+            ViewUtils.sStarted = false;
+            Process.killProcessQuiet(Process.myPid());
+        }
     }
 
     /**
