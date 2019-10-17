@@ -41,11 +41,11 @@ LOCAL_APK_LIBRARIES := Settings
 LOCAL_MODULE_TAGS := optional
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRIVATE_PLATFORM_APIS := true
+LOCAL_PRODUCT_MODULE := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_PACKAGE_NAME := DuraSpeed
-LOCAL_MODULE_OWNER := mtk
 LOCAL_CERTIFICATE := platform
 
 include $(BUILD_PACKAGE)
