@@ -48,8 +48,7 @@
                 android:value="com.mediatek.duraspeed.view.DSSummaryProvider" />
         </activity>
 
-        <receiver android:name=".view.DuraSpeedAppReceiver"
-                  android:directBootAware="true">
+        <receiver android:name=".view.DuraSpeedAppReceiver">
             <intent-filter>
                 <action android:name="mediatek.intent.action.ACTION_START_DURASPEED_APP" />
             </intent-filter>
