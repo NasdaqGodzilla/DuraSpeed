@@ -43,6 +43,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ListView;
+import android.widget.TextView;
 
 import com.mediatek.duraspeed.R;
 import com.mediatek.duraspeed.presenter.AppRecord;
@@ -125,16 +127,13 @@ public class WhiteListFragment extends BaseFragment {
     public void showControlAppList(ArrayList<AppRecord> appList) {
         if (appList == null || appList.size() == 0) {
             this.mActivity.getFragmentManager().popBackStackImmediate();
+            showBlankView();
             Log.d(TAG, "show control app list is empty");
             return;
         }
         super.showControlAppList(appList);
         mAllCurrentShowedApp = appList;
         Log.d(TAG, "showControlAppList");
-        if (appList == null) {
-            Log.d(TAG, "appList == null");
-            return;
-        }
         //add description preference
         addDesPreference(R.string.fun_desc);
         getAppLabels(mAllCurrentShowedApp);
@@ -142,6 +141,14 @@ public class WhiteListFragment extends BaseFragment {
         Collections.sort(mAllCurrentShowedApp, mPkgComp);
         // add app list preference
         addAllAppPreference(mAllCurrentShowedApp);
+    }
+
+    public void showBlankView() {
+        mPreferenceScreen.removeAll();
+        TextView emptyView = (TextView) getView().findViewById(android.R.id.empty);
+        emptyView.setText("");
+        ListView list = (ListView) getView().findViewById(android.R.id.list);
+        list.setEmptyView(emptyView);
     }
 
     @Override
