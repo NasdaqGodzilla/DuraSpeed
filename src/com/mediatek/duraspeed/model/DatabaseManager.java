@@ -68,7 +68,7 @@ public class DatabaseManager {
     private int mRetrieveFlags;
     private static Object sLock = new Object();
 
-    private IDuraSpeedService mDuraSpeedService;
+    public IDuraSpeedService mDuraSpeedService;
 
     private HashMap<String, List<AppRecord>> mPkgKeyCache;
     private HashMap<String, List<AppRecord>> mCategoryKeyCache;

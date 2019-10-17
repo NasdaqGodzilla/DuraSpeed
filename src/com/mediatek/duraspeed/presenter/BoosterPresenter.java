@@ -41,7 +41,6 @@ import android.content.res.Resources;
 import android.os.ServiceManager;
 import android.util.Log;
 
-import com.mediatek.duraspeed.manager.IDuraSpeedService;
 import com.mediatek.duraspeed.model.DatabaseManager;
 import com.mediatek.duraspeed.view.ViewUtils;
 
@@ -56,7 +55,6 @@ public class BoosterPresenter implements BoosterContract.IPolicyPresenter,
     private Context mContext;
     private BoosterContract.View mViewTask;
     private Resources mRes;
-    private IDuraSpeedService mDuraSpeedService;
     private static String sPkgName = null;
 
     public BoosterPresenter(Context context, BoosterContract.View view) {
@@ -64,14 +62,13 @@ public class BoosterPresenter implements BoosterContract.IPolicyPresenter,
         sPkgName = context.getPackageName();
         mViewTask = view;
         mRes = context.getResources();
-        mDuraSpeedService =
-                IDuraSpeedService.Stub.asInterface(ServiceManager.getService("duraspeed"));
     }
 
     public void setAppWhitelist() {
-        List<String> appWhitelist = DatabaseManager.getInstance(mContext).getAppWhiteList();
+        DatabaseManager dbManager = DatabaseManager.getInstance(mContext);
+        List<String> appWhitelist = dbManager.getAppWhiteList();
         try {
-            mDuraSpeedService.setAppWhitelist(appWhitelist);
+            dbManager.mDuraSpeedService.setAppWhitelist(appWhitelist);
         } catch (Exception e) {
             e.printStackTrace();
         }
