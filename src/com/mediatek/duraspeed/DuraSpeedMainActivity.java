@@ -123,12 +123,14 @@ public class DuraSpeedMainActivity extends Activity {
                 String packageName = intent.getData().getSchemeSpecificPart();
                 if (Intent.ACTION_PACKAGE_ADDED.equals(action)) {
                     // Add package info to DB and cache
-                    if (Utils.sDatabaseManager.insert(packageName)) {
+                    if ((Utils.sDatabaseManager != null)
+                            && Utils.sDatabaseManager.insert(packageName)) {
                         notifyPackageUpdated();
                     }
                 } else if (Intent.ACTION_PACKAGE_REMOVED.equals(action)) {
                     // Remove package info from DB and cache
-                    if (Utils.sDatabaseManager.delete(packageName)) {
+                    if ((Utils.sDatabaseManager != null)
+                            && Utils.sDatabaseManager.delete(packageName)) {
                         notifyPackageUpdated();
                     }
                 }
