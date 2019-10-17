@@ -36,7 +36,7 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_STATIC_JAVA_LIBRARIES := duraspeed_jsoup duraspeed
-LOCAL_JAVA_LIBRARIES := services.core
+LOCAL_JAVA_LIBRARIES := services.core mediatek-common
 LOCAL_APK_LIBRARIES := Settings
 
 LOCAL_MODULE_TAGS := optional
@@ -49,6 +49,7 @@ LOCAL_SRC_FILES += \
      src/com/mediatek/duraspeed/presenter/ICallback.aidl \
      src/com/mediatek/duraspeed/presenter/IRemoteService.aidl
 
+LOCAL_PROGUARD_ENABLED := obfuscation
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_PACKAGE_NAME := DuraSpeed
