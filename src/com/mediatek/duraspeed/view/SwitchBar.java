@@ -225,70 +225,45 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
         mSwitchChangeListeners.remove(listener);
     }
 
-    static class SavedState extends BaseSavedState {
+    static class DSSavedState extends BaseSavedState {
         boolean checked;
         boolean visible;
 
-        SavedState(Parcelable superState) {
-            super(superState);
+        DSSavedState(Parcelable state) {
+            super(state);
         }
 
-        /**
-         * Constructor called from {@link #CREATOR}
-         */
-        private SavedState(Parcel in) {
-            super(in);
-            checked = (Boolean) in.readValue(null);
-            visible = (Boolean) in.readValue(null);
+        private DSSavedState(Parcel parcel) {
+            super(parcel);
+            checked = (Boolean) parcel.readValue(null);
+            visible = (Boolean) parcel.readValue(null);
         }
 
         @Override
-        public void writeToParcel(Parcel out, int flags) {
-            super.writeToParcel(out, flags);
-            out.writeValue(checked);
-            out.writeValue(visible);
+        public void writeToParcel(Parcel parcel, int flags) {
+            super.writeToParcel(parcel, flags);
+            parcel.writeValue(checked);
+            parcel.writeValue(visible);
         }
-
-        @Override
-        public String toString() {
-            return "SwitchBar.SavedState{"
-                    + Integer.toHexString(System.identityHashCode(this))
-                    + " checked=" + checked
-                    + " visible=" + visible + "}";
-        }
-
-        public static final Parcelable.Creator<SavedState> CREATOR
-                = new Parcelable.Creator<SavedState>() {
-            public SavedState createFromParcel(Parcel in) {
-                return new SavedState(in);
-            }
-
-            public SavedState[] newArray(int size) {
-                return new SavedState[size];
-            }
-        };
     }
 
     @Override
     public Parcelable onSaveInstanceState() {
-        Parcelable superState = super.onSaveInstanceState();
-
-        SavedState ss = new SavedState(superState);
-        ss.checked = mSwitch.isChecked();
-        ss.visible = isShowing();
-        return ss;
+        DSSavedState savedState = new DSSavedState(super.onSaveInstanceState());
+        savedState.checked = mSwitch.isChecked();
+        savedState.visible = isShowing();
+        return savedState;
     }
 
     @Override
     public void onRestoreInstanceState(Parcelable state) {
-        SavedState ss = (SavedState) state;
+        DSSavedState savedState = (DSSavedState) state;
+        super.onRestoreInstanceState(savedState.getSuperState());
 
-        super.onRestoreInstanceState(ss.getSuperState());
-
-        mSwitch.setCheckedInternal(ss.checked);
-        setTextViewLabel(ss.checked);
-        setVisibility(ss.visible ? View.VISIBLE : View.GONE);
-        mSwitch.setOnCheckedChangeListener(ss.visible ? this : null);
+        mSwitch.setCheckedInternal(savedState.checked);
+        setTextViewLabel(savedState.checked);
+        setVisibility(savedState.visible ? View.VISIBLE : View.GONE);
+        mSwitch.setOnCheckedChangeListener(savedState.visible ? this : null);
 
         requestLayout();
     }
