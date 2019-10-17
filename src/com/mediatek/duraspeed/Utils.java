@@ -212,8 +212,7 @@ public final class Utils {
      */
     public static void startDuraSpeedMLService(Context context) {
         Intent intent = new Intent();
-        intent.setPackage(DURASPEED_ML_PACKAGE);
-        intent.setAction(DURASPEED_ML_SERVICE_START_ACTION);
+        intent.setClassName("com.mediatek.duraspeedml","com.mediatek.duraspeedml.InferenceService");
         context.startServiceAsUser(intent, UserHandle.CURRENT);
     }
 
@@ -224,8 +223,7 @@ public final class Utils {
      */
     public static void stopDuraSpeedMLService(Context context) {
         Intent intent = new Intent();
-        intent.setPackage(DURASPEED_ML_PACKAGE);
-        intent.setAction(DURASPEED_ML_SERVICE_START_ACTION);
+        intent.setClassName("com.mediatek.duraspeedml","com.mediatek.duraspeedml.InferenceService");
         context.stopServiceAsUser(intent, UserHandle.CURRENT);
     }
 }
